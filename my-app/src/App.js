@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState } from "react"
 
 function App() {
+  const [img, setImg] = useState("")
+  const [artifact, setArtifact] = useState("")
+  useEffect(()=>{
+    fetch("https://collectionapi.metmuseum.org/public/collection/v1/objects/47120")
+      .then((r) => r.json())
+      .then((data) => {
+        console.log(data)
+        setArtifact(data)
+        setImg(data.primaryImageSmall)
+      })
+  }, [])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div className="topnav">
+        <a href="#home"> Home </a>
+        <a href="#battle"> Generate New Cards </a>
+        <a href="#learn-more"> Learn More </a>
+        <a href="#card-inventory"> Card Inventory </a>
+      </div>
+      <div className="card-container">
+        <h1>Card name here</h1>
+        <h2>Strength: </h2>
+        <h2>Defense: </h2>
+        <img src={img} alt={artifact.medium}></img>
+      </div>
     </div>
   );
 }
