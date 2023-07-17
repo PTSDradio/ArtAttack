@@ -1,34 +1,25 @@
-import React, { useEffect, useState } from "react"
+import React from "react"
+import { Route, Routes, BrowserRouter } from "react-router-dom";
+import NavBar from "./Navbar";
+import GenerateNewCard from "./GenerateNewCard";
+import CardInventory from "./CardInventory";
+import LearnMore from "./LearnMore";
+import Home from "./Home";
 
 function App() {
-  const [img, setImg] = useState("")
-  const [artifact, setArtifact] = useState("")
-  useEffect(()=>{
-    fetch("https://collectionapi.metmuseum.org/public/collection/v1/objects/47120")
-      .then((r) => r.json())
-      .then((data) => {
-        console.log(data)
-        setArtifact(data)
-        setImg(data.primaryImageSmall)
-      })
-  }, [])
 
   return (
     <div>
-      <div className="topnav">
-        <a href="#home"> Home </a>
-        <a href="#battle"> Generate New Cards </a>
-        <a href="#learn-more"> Learn More </a>
-        <a href="#card-inventory"> Card Inventory </a>
-      </div>
-      <div className="card-container">
-        <h1>Card name here</h1>
-        <h2>Strength: </h2>
-        <h2>Defense: </h2>
-        <img src={img} alt={artifact.medium}></img>
-      </div>
+      <NavBar />
+        <Routes>
+        <Route exact path="/" element={<Home/>}/>
+        <Route exact path="/GenerateNewCard" element={<GenerateNewCard />}/>
+        <Route exact path="/CardInventory" element={<CardInventory />}/>
+        <Route exact path="/LearnMore" element={<LearnMore />}/>
+        </Routes>
     </div>
   );
 }
 
 export default App;
+
