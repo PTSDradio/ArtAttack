@@ -27,40 +27,79 @@ const fetchRandomData = () => {
       console.log(randomNumber);
       if (data.message !== "ObjectID not found") {
         if (data.isPublicDomain === true && data.primaryImage.includes("http")) {
-          const newData = { id: data.objectID, ...data };
-          setArray((prevArray) => [...prevArray, newData]);
-          setData(newData);
+          // const newData = { id: data.objectID, ...data };
+          setArray((prevArray) => [...prevArray, data]);
+          setData(data);
           
-          console.log(dataArr.length);
-          
-        }
-        else {
-          let trashData = []
+          console.log(data);
+          postData(data);
         }
       }
     });
 };
 
-// const postData = (data) => {
-//   const postData = {
-//     id: data.id,
-//     primaryImage: data.primaryImage,
-//     title: data.title,
-//     artistDisplayName: data.artistDisplayName,
-//     objectEndDate: data.objectEndDate,
-//   };
+const postData = (data) => {
+  const dateCheck = data.objectEndDate
+  let tier = 0
+  switch(true) {
+    case dateCheck >= 1900:  
+      tier = 8
+      break;
+    case dateCheck >= 1800:
+      tier = 7
+      break;
+    case dateCheck >= 1700:
+      tier = 6
+      break;
+    case dateCheck >= 1600:
+      tier = 5
+      break;
+    case dateCheck >= 1500:
+      tier = 4
+      break;
+    case dateCheck >= 1000:
+      tier = 3
+      break;
+    case dateCheck >= 0:
+      tier = 2
+      break;
+    case dateCheck < 0:
+      tier = 1
+      break;
 
-//   fetch("http://localhost:3000/cards", {
-//     method: "POST",
-//     headers: {
-//       "Content-Type": "application/json",
-//     },
-//     body: JSON.stringify(postData),
-//   })
-//     .then((response) => response.json())
-//     .then((data) => console.log(data))
-//     .catch((error) => console.log("Error:", error));
-// };
+     default:
+      tier = 9
+    } 
+  const postData = {
+    id: data.objectID,
+    primaryImage: data.primaryImage,
+    title: data.title,
+    artistDisplayName: data.artistDisplayName,
+    artistDisplayBio: data.artistDisplayBio,
+    objectEndDate: data.objectEndDate,
+    culture: data.culture,
+    medium: data.medium,
+    period: data.period,
+    tier: tier,
+    // tier: data.objectEndDate > 1900? "A" : null,
+    
+    // tier: data.objectEndDate > 1800 ? "E" : null,
+    // tier: data.objectEndDate > 1700 ? "D" : null,
+    // tier: data.objectEndDate > 1600 ? "C" : null,
+    // tier: data.objectEndDate > 100 ? "B" : null,
+  };
+
+  fetch("http://localhost:3000/cards", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(postData),
+  })
+    .then((response) => response.json())
+    .then((data) => console.log(data))
+    .catch((error) => console.log("Error:", error));
+};
 
 
   // return (
@@ -75,15 +114,15 @@ const fetchRandomData = () => {
   //     ))}
   return (
     <div>
-      <BrowserRouter>
-      <NavBar />
+      
+      {/* <NavBar />
         <Routes>
         <Route exact path="/" element={<Home/>}/>
         <Route exact path="/GenerateNewCard" element={<GenerateNewCard />}/>
         <Route exact path="/CardInventory" element={<CardInventory />}/>
         <Route exact path="/LearnMore" element={<LearnMore />}/>
-        </Routes>
-    </BrowserRouter>
+        </Routes> */}
+    
 
     </div>
   );
