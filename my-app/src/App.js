@@ -78,10 +78,10 @@ const fetchRandomData = () => {
       <BrowserRouter>
       <NavBar />
         <Routes>
-        <Route exact path="/" element={<Home/>}/>
-        <Route exact path="/GenerateNewCard" element={<GenerateNewCard />}/>
-        <Route exact path="/CardInventory" element={<CardInventory />}/>
-        <Route exact path="/LearnMore" element={<LearnMore />}/>
+          <Route exact path="/" element={<Home/>}/>
+          <Route exact path="/GenerateNewCard" element={<GenerateNewCard />}/>
+          <Route exact path="/CardInventory" element={<CardInventory />}/>
+          <Route exact path="/LearnMore" element={<LearnMore />}/>
         </Routes>
     </BrowserRouter>
 

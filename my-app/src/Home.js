@@ -3,7 +3,7 @@ import Card from "./Card";
 
 function Home(){
     return (
-        <div>
+        <div className="homeScreen">
             <h1> Home </h1>
             <Card />
         </div>
