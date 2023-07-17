@@ -22,7 +22,7 @@ code {
 }
 
 .container {
-  display: absolute;
+  display: inline-block;
   align-items: center;
   justify-content: center;
 }
@@ -33,9 +33,9 @@ code {
   justify-content: center;
   align-items: center;
   width: 300px;
-  height: 400px;
-  background-color: #ddd;
-  margin: auto;
+  height: 100%;
+  background-color: #bf8a3f;
+  margin: 20px;
   margin-bottom: 20px;
 }
 
@@ -45,6 +45,32 @@ code {
   max-height: 100%;
 }
 
+.generic-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background-color: initial;
+  background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+  height: 40px;
+  line-height: 40px;
+  outline: 0;
+  padding: 0 20px;
+  pointer-events: auto;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  z-index: 9;
+  border: 0;
+  transition: box-shadow .2s;
+  margin-top: 20px;
+}
 
 .battle-button {
   display: flex;

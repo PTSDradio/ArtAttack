@@ -19,6 +19,7 @@ function Battle(){
     const runBattle = () => {
         //This is where logic will go, to compare the tiers of user card versus CPU card. We can also have a deal damage system. 
         window.alert("Your card has been defeated!")
+        
     }
 
     return (
