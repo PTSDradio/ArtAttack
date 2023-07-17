@@ -8,6 +8,7 @@ const linkStyles = {
     padding: "14px 16px",
     textDecoration: "none",
     fontSize: "17px",
+    background: "grey",
 };
 
 function NavBar() {
