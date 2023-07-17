@@ -73,9 +73,9 @@ const fetchRandomData = () => {
   //         <h3>Year: {item.objectEndDate}</h3>
   //       </div>
   //     ))}
+
   return (
     <div>
-      <BrowserRouter>
       <NavBar />
         <Routes>
           <Route exact path="/" element={<Home/>}/>
@@ -83,7 +83,6 @@ const fetchRandomData = () => {
           <Route exact path="/CardInventory" element={<CardInventory />}/>
           <Route exact path="/LearnMore" element={<LearnMore />}/>
         </Routes>
-    </BrowserRouter>
 
     </div>
   );

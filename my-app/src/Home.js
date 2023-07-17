@@ -1,11 +1,14 @@
 import React from "react";
-import Card from "./Card";
+import UserCard from "./UserCard";
+import CPUopponent from "./CPUcard";
+import Battle from "./Battle";
+
 
 function Home(){
     return (
-        <div className="homeScreen">
-            <h1> Home </h1>
-            <Card />
+        <div className="home-screen">
+            <UserCard />
+            <Battle /> 
         </div>
     )
 }
