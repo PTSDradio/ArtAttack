@@ -1,573 +1,1204 @@
 {
   "cards": [
-    {},
     {
-      "id": 1417,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/17651.jpg",
-      "title": "Card Table",
+      "id": 3864,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/184806.jpg",
+      "title": "Garden Bench",
       "artistDisplayName": "",
-      "objectEndDate": 1805,
-      "tier": "E"
+      "artistDisplayBio": "",
+      "objectEndDate": 1850,
+      "culture": "American",
+      "medium": "Cast iron",
+      "period": "",
+      "tier": 7
     },
     {
-      "id": 54804,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP135878.jpg",
-      "title": "Spring Rain Collection (Harusame shū), vol. 1: Plum Tree in Bloom",
-      "artistDisplayName": "Ryūryūkyo Shinsai",
-      "objectEndDate": 1810,
-      "tier": "E"
-    },
-    {
-      "id": 66526,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP12261.jpg",
-      "title": "Piece",
-      "artistDisplayName": "",
-      "objectEndDate": 1899,
-      "tier": "E"
-    },
-    {
-      "id": 34836,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/aa/original/sfma27.183.11_69956.jpg",
-      "title": "Brayette and Buttock Defense",
-      "artistDisplayName": "",
-      "objectEndDate": 1600,
-      "tier": "D"
-    },
-    {
-      "id": 5970,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/24532.jpg",
+      "id": 14302,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DP229064.jpg",
       "title": "Plate",
-      "artistDisplayName": "Enoch Wood & Sons",
-      "objectEndDate": 1849,
-      "tier": "E"
+      "artistDisplayName": "Ott and Brewer",
+      "artistDisplayBio": "American, Trenton, New Jersey, 1871–1893",
+      "objectEndDate": 1890,
+      "culture": "American",
+      "medium": "Porcelain",
+      "period": "",
+      "tier": 7
     },
     {
-      "id": 10592,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DP218198.jpg",
-      "title": "The Bracelet",
-      "artistDisplayName": "Thomas Seir Cummings",
-      "objectEndDate": 1835,
-      "tier": "E"
+      "id": 5080,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/LC-83_2_429-001.jpg",
+      "title": "Medal of John Quincy Adams",
+      "artistDisplayName": "Moritz Fürst",
+      "artistDisplayBio": "born 1782, active United States, 1807–ca. 1840",
+      "objectEndDate": 1825,
+      "culture": "American",
+      "medium": "Bronze",
+      "period": "",
+      "tier": 7
     },
     {
-      "id": 67794,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP11656.jpg",
-      "title": "Piece",
+      "id": 64282,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/2001_794_112_O.jpg",
+      "title": "Container, repousse",
       "artistDisplayName": "",
-      "objectEndDate": 1899,
-      "tier": "E"
+      "artistDisplayBio": "",
+      "objectEndDate": 1200,
+      "culture": "Indonesia (Central Java)",
+      "medium": "Gold",
+      "period": "",
+      "tier": 3
     },
     {
-      "id": 62673,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/15973.jpg",
-      "title": "Incense Burner",
+      "id": 73508,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP148072.jpg",
+      "title": "Heidoru (St. Petersberg), Capital of Russia, from  the series Famous Places from All Nations (Bankoku meisho zukushi - Oroshiya miyako heidoru)",
+      "artistDisplayName": "Utagawa Yoshitora",
+      "artistDisplayBio": "Japanese, active ca. 1850–80",
+      "objectEndDate": 1865,
+      "culture": "Japan",
+      "medium": "Triptych of woodblock prints; ink and color on paper",
+      "period": "Edo period (1615–1868)",
+      "tier": 7
+    },
+    {
+      "id": 29288,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/aa/original/LC-42_50_400-003.jpg",
+      "title": "Stirrup",
       "artistDisplayName": "",
-      "objectEndDate": 1899,
-      "tier": "E"
-    },
-    {
-      "id": 9081,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/186856.jpg",
-      "title": "Tumbler",
-      "artistDisplayName": "Hobbs, Brockunier and Company",
-      "objectEndDate": 1896,
-      "tier": "E"
-    },
-    {
-      "id": 44286,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/1995_598a,b.jpg",
-      "title": "Rakan",
-      "artistDisplayName": "",
-      "objectEndDate": 1392,
-      "tier": "C"
-    },
-    {
-      "id": 40311,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP166346_CRD.jpg",
-      "title": "Ode on Returning Home",
-      "artistDisplayName": "Qian Xuan",
-      "objectEndDate": 1499,
-      "tier": "C"
-    },
-    {
-      "id": 54994,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP138337.jpg",
-      "title": "“Beans for Tossing During Setsubun Exorcism Ceremony,” from the series Ise Calendars for the Asakusa Group (Asakusa-gawa Ise goyomi)\r\nFrom the Spring Rain Collection (Harusame shū), vol. 2",
-      "artistDisplayName": "Kubo Shunman",
-      "objectEndDate": 1819,
-      "tier": "E"
-    },
-    {
-      "id": 17242,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DP101963.jpg",
-      "title": "Embroidered sampler",
-      "artistDisplayName": "Lydia Pearson",
-      "objectEndDate": 1802,
-      "tier": "E"
-    },
-    {
-      "id": 2531,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DP208097.jpg",
-      "title": "Sweetmeat jar",
-      "artistDisplayName": "",
-      "objectEndDate": 1870,
-      "tier": "E"
-    },
-    {
-      "id": 43913,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/83102.jpg",
-      "title": "Pendant",
-      "artistDisplayName": "",
-      "objectEndDate": 1795,
-      "tier": "D"
-    },
-    {
-      "id": 50289,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/1998_544_391.JPG",
-      "title": "Ring with Oval Bezel and Foliate Border with \"Sri\"",
-      "artistDisplayName": "",
-      "objectEndDate": 925,
-      "tier": "B"
-    },
-    {
-      "id": 17677,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/115641.jpg",
-      "title": "Skirt",
-      "artistDisplayName": "",
-      "objectEndDate": 1750,
-      "tier": "D"
-    },
-    {
-      "id": 65595,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP156172.jpg",
-      "title": "Radha Crosses a River to Interview a Hindu Sage",
-      "artistDisplayName": "Chokha",
-      "objectEndDate": 1830,
-      "tier": "E"
-    },
-    {
-      "id": 2971,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/85J_ACF3114R6.jpg",
-      "title": "Cupboard",
-      "artistDisplayName": "",
-      "objectEndDate": 1700,
-      "tier": "D"
-    },
-    {
-      "id": 78632,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/2013_711_04_crd.jpg",
-      "title": "Picture Book of the Pleasures of the East (Ehon azuma asobi) 画本東都遊",
-      "artistDisplayName": "Katsushika Hokusai 葛飾北斎",
-      "objectEndDate": 1802,
-      "tier": "E"
-    },
-    {
-      "id": 71409,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP15896.jpg",
-      "title": "Piece",
-      "artistDisplayName": "",
-      "objectEndDate": 1799,
-      "tier": "D"
-    },
-    {
-      "id": 1715,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/108638.jpg",
-      "title": "Side Chair",
-      "artistDisplayName": "",
-      "objectEndDate": 1725,
-      "tier": "D"
-    },
-    {
-      "id": 3061,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DP242557.jpg",
-      "title": "Pipe",
-      "artistDisplayName": "",
-      "objectEndDate": 1735,
-      "tier": "D"
-    },
-    {
-      "id": 43267,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/31626.jpg",
-      "title": "Cup with Handle",
-      "artistDisplayName": "",
-      "objectEndDate": 1795,
-      "tier": "D"
-    },
-    {
-      "id": 66296,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP11991.jpg",
-      "title": "Piece",
-      "artistDisplayName": "",
-      "objectEndDate": 1899,
-      "tier": "E"
-    },
-    {
-      "id": 42508,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DT2900.jpg",
-      "title": "Altar bowl with Tibetan inscription",
-      "artistDisplayName": "",
-      "objectEndDate": 1433,
-      "tier": "C"
-    },
-    {
-      "id": 8387,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DP156039.jpg",
-      "title": "Teapot",
-      "artistDisplayName": "John A. Schanck",
-      "objectEndDate": 1800,
-      "tier": "E"
-    },
-    {
-      "id": 24903,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/aa/original/DT7690.jpg",
-      "title": "Gauntlet for the Left Hand",
-      "artistDisplayName": "Jörg Sigman",
-      "objectEndDate": 1582,
-      "tier": "C"
-    },
-    {
-      "id": 16351,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/266726.jpg",
-      "title": "Three Graces (Primavera?) (Botticelli?); Dying Figure; Figure with a Bow (from Sketchbook)",
-      "artistDisplayName": "Thomas Sully",
-      "objectEndDate": 1820,
-      "tier": "E"
-    },
-    {
-      "id": 61001,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/91_1_498_13516.jpg",
-      "title": "Vase",
-      "artistDisplayName": "",
-      "objectEndDate": 1799,
-      "tier": "D"
-    },
-    {
-      "id": 56881,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP119512.jpg",
-      "title": "Plucking a Branch from a Neighbor's Plum Tree",
-      "artistDisplayName": "Suzuki Harunobu",
-      "objectEndDate": 1778,
-      "tier": "D"
-    },
-    {
-      "id": 55637,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP123604.jpg",
-      "title": "Shiba Atogayama",
-      "artistDisplayName": "Utagawa Hiroshige",
-      "objectEndDate": 1868,
-      "tier": "E"
-    },
-    {
-      "id": 59580,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/2002_201_193_O1.jpg",
-      "title": "Belt Buckle in the Shape of a Wolf",
-      "artistDisplayName": "",
-      "objectEndDate": -300,
-      "tier": "S"
-    },
-    {
-      "id": 51758,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/48_162_3_O2.jpg",
-      "title": "Rakan",
-      "artistDisplayName": "Unidentified artist",
-      "objectEndDate": 1573,
-      "tier": "C"
-    },
-    {
-      "id": 38245,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DT5256.jpg",
-      "title": "Reliquary(?) with Scenes from the Life of Buddha",
-      "artistDisplayName": "",
-      "objectEndDate": 1050,
-      "tier": "B"
-    },
-    {
-      "id": 10320,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/ap99.38.52.jpg",
-      "title": "Sheet of Two Sketches of Rothenburg, Germany",
-      "artistDisplayName": "Andrew Fisher Bunner",
-      "objectEndDate": 1876,
-      "tier": "E"
-    },
-    {
-      "id": 68941,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/79818.jpg",
-      "title": "Rank Badge with Wild Goose",
-      "artistDisplayName": "",
-      "objectEndDate": 1833,
-      "tier": "E"
-    },
-    {
-      "id": 7451,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/97895.jpg",
-      "title": "Shoe Buckle",
-      "artistDisplayName": "",
-      "objectEndDate": 1810,
-      "tier": "E"
-    },
-    {
-      "id": 8739,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/97976.jpg",
-      "title": "Tongs",
-      "artistDisplayName": "Joel Sayre",
-      "objectEndDate": 1810,
-      "tier": "E"
-    },
-    {
-      "id": 21968,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/aa/original/DP273708.jpg",
-      "title": "Wheellock Rifle",
-      "artistDisplayName": "Caspar Spät",
-      "objectEndDate": 1675,
-      "tier": "C"
-    },
-    {
-      "id": 48280,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/79_2_287_O1_sf.jpg",
-      "title": "Vase with flowers and rocks",
-      "artistDisplayName": "",
-      "objectEndDate": 1733,
-      "tier": "D"
-    },
-    {
-      "id": 36767,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP141335.jpg",
-      "title": "Iwai Kiyotaro as a Woman Standing under a Plum Tree",
-      "artistDisplayName": "Katsukawa Shunkō",
-      "objectEndDate": 1798,
-      "tier": "D"
-    },
-    {
-      "id": 42477,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP342585.jpg",
-      "title": "Bottle with Lotus Scroll",
-      "artistDisplayName": "",
-      "objectEndDate": 1333,
-      "tier": "B"
-    },
-    {
-      "id": 45613,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP276270.jpg",
-      "title": "One of the Twelve Devas: Katen",
-      "artistDisplayName": "",
-      "objectEndDate": 1392,
-      "tier": "B"
-    },
-    {
-      "id": 31074,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/aa/original/36.25.1428ab_005july2014.jpg",
-      "title": "Sword (Dha) with Scabbard and Baldric",
-      "artistDisplayName": "",
-      "objectEndDate": 1900,
-      "tier": "F"
-    },
-    {
-      "id": 74874,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP164510.jpg",
-      "title": "Folio from a Buddhist Manuscript of Pancavimsatisahasrika Prajnaparamita",
-      "artistDisplayName": "",
+      "artistDisplayBio": "",
       "objectEndDate": 1100,
-      "tier": "B"
+      "culture": "West Slavic",
+      "medium": "Iron",
+      "period": "",
+      "tier": 3
     },
     {
-      "id": 54407,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP143972.jpg",
-      "title": "Version of Legend of Michizane: Woman Riding Ox Which a Man is Leading",
-      "artistDisplayName": "Utagawa Toyohiro",
-      "objectEndDate": 1828,
-      "tier": "E"
-    },
-    {
-      "id": 884,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/25990.jpg",
+      "id": 52571,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/50_221_49_149898.jpg",
       "title": "Bowl",
       "artistDisplayName": "",
-      "objectEndDate": 1820,
-      "tier": "E"
+      "artistDisplayBio": "",
+      "objectEndDate": 1795,
+      "culture": "China",
+      "medium": "Porcelain",
+      "period": "Qing dynasty (1644–1911), Qianlong period (1736–95)",
+      "tier": 6
     },
     {
-      "id": 67693,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP13206.jpg",
+      "id": 381,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/122866.jpg",
+      "title": "Beaker",
+      "artistDisplayName": "Thomas Danforth Boardman",
+      "artistDisplayBio": "1784–1873",
+      "objectEndDate": 1850,
+      "culture": "American",
+      "medium": "Pewter",
+      "period": "",
+      "tier": 7
+    },
+    {
+      "id": 56500,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP114899.jpg",
+      "title": "End of the Year",
+      "artistDisplayName": "Eishōsai Chōki",
+      "artistDisplayBio": "Japanese, active late 18th–early 19th century",
+      "objectEndDate": 1868,
+      "culture": "Japan",
+      "medium": "Woodblock print; ink and color on paper",
+      "period": "Edo period (1615–1868)",
+      "tier": 7
+    },
+    {
+      "id": 48325,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/29_80_3_73676.jpg",
+      "title": "Roof tile end with dragon",
+      "artistDisplayName": "",
+      "artistDisplayBio": "",
+      "objectEndDate": 1799,
+      "culture": "China",
+      "medium": "Earthenware with yellow glaze",
+      "period": "Qing dynasty (1644–1911)",
+      "tier": 6
+    },
+    {
+      "id": 71004,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP15536.jpg",
       "title": "Piece",
       "artistDisplayName": "",
+      "artistDisplayBio": "",
+      "objectEndDate": 999,
+      "culture": "Japan",
+      "medium": "Silk / Compound weave",
+      "period": "Heian period (794–1185)",
+      "tier": 2
+    },
+    {
+      "id": 52937,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/24_80_273_O1.jpg",
+      "title": "Vase in the shape of an ancient ritual cup (zhi) (one of a pair)",
+      "artistDisplayName": "",
+      "artistDisplayBio": "",
+      "objectEndDate": 1795,
+      "culture": "China",
+      "medium": "Porcelain with clair de lune glaze (Jingdezhen ware)",
+      "period": "Qing dynasty (1644–1911), Qianlong period (1736–95)",
+      "tier": 6
+    },
+    {
+      "id": 60272,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/10_211_1032_O1_sf.jpg",
+      "title": "Netsuke of a Demon Carrying a Gourd on His Back",
+      "artistDisplayName": "",
+      "artistDisplayBio": "",
       "objectEndDate": 1899,
-      "tier": "E"
+      "culture": "Japan",
+      "medium": "Ivory",
+      "period": "Edo (1615–1868) or Meiji period (1868–1912)",
+      "tier": 7
     },
     {
-      "id": 3173,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DP205016.jpg",
-      "title": "Drop-leaf Dining Table",
+      "id": 49737,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/1998_544_79.jpg",
+      "title": "Rod Finial Clip with Foliate Design Creating Demon Mask",
       "artistDisplayName": "",
-      "objectEndDate": 1810,
-      "tier": "E"
+      "artistDisplayBio": "",
+      "objectEndDate": 925,
+      "culture": "Indonesia (Java)",
+      "medium": "Gold",
+      "period": "late Central Javanese period",
+      "tier": 2
     },
     {
-      "id": 74547,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/2008_335_39.JPG",
-      "title": "Piece from a Kosode with Garden Fence",
+      "id": 2334,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DP162489.jpg",
+      "title": "Box",
+      "artistDisplayName": "Elias Pelletreau",
+      "artistDisplayBio": "1726–1810",
+      "objectEndDate": 1776,
+      "culture": "American",
+      "medium": "Silver",
+      "period": "",
+      "tier": 6
+    },
+    {
+      "id": 48768,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/17_120_185_O1_sf.jpg",
+      "title": "Vase with floral scrolls",
       "artistDisplayName": "",
-      "objectEndDate": 1868,
-      "tier": "E"
+      "artistDisplayBio": "",
+      "objectEndDate": 1766,
+      "culture": "China",
+      "medium": "Porcelain painted in overglaze polychrome enamels (Jingdezhen ware)",
+      "period": "Qing dynasty (1644–1911), Qianlong period (1736–95)",
+      "tier": 6
     },
     {
-      "id": 68417,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/43986.jpg",
-      "title": "Gift Cloth (Fukusa)",
-      "artistDisplayName": "",
-      "objectEndDate": 1868,
-      "tier": "E"
-    },
-    {
-      "id": 68084,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP14111.jpg",
-      "title": "Textile Sample from Sample Book",
-      "artistDisplayName": "",
-      "objectEndDate": 1899,
-      "tier": "E"
-    },
-    {
-      "id": 48875,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP153826.jpg",
-      "title": "After Wang Xianzhi's (344–385) Foxglove Broth Letter",
-      "artistDisplayName": "Wen Peng",
-      "objectEndDate": 1567,
-      "tier": "C"
-    },
-    {
-      "id": 75061,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP154948.jpg",
-      "title": "Page from a Dispersed Kalpa Sutra (Jain Book of Rituals)",
-      "artistDisplayName": "",
-      "objectEndDate": 1499,
-      "tier": "C"
-    },
-    {
-      "id": 10465,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DT226889.jpg",
-      "title": "Carmencita",
-      "artistDisplayName": "William Merritt Chase",
-      "objectEndDate": 1890,
-      "tier": "E"
-    },
-    {
-      "id": 39222,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DT3782.jpg",
-      "title": "Bodhisattva, probably Avalokiteshvara",
-      "artistDisplayName": "",
-      "objectEndDate": 850,
-      "tier": "B"
-    },
-    {
-      "id": 40054,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP213064_CRD.jpg",
-      "title": "Odes of the State of Bin",
-      "artistDisplayName": "Ma Hezhi",
-      "objectEndDate": 1166,
-      "tier": "B"
-    },
-    {
-      "id": 56105,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP123621.jpg",
-      "title": "Bird",
-      "artistDisplayName": "Hakusanjin Hokui",
-      "objectEndDate": 1840,
-      "tier": "E"
-    },
-    {
-      "id": 62186,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/LC-91_1_2086-001.jpg",
-      "title": "Basket",
-      "artistDisplayName": "",
-      "objectEndDate": 1899,
-      "tier": "E"
-    },
-    {
-      "id": 5787,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DT5699.jpg",
-      "title": "Pitcher",
-      "artistDisplayName": "Dallas Pottery",
-      "objectEndDate": 1875,
-      "tier": "E"
-    },
-    {
-      "id": 6164,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/174926.jpg",
-      "title": "Plate",
-      "artistDisplayName": "Samuel Melville",
-      "objectEndDate": 1800,
-      "tier": "E"
-    },
-    {
-      "id": 60534,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/12_37_13_12503.jpg",
-      "title": "Earring",
-      "artistDisplayName": "",
-      "objectEndDate": 699,
-      "tier": "A"
-    },
-    {
-      "id": 23777,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/aa/original/LC-36_25_2617-001.jpg",
+      "id": 23472,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/aa/original/LC-32_75_401-001.jpg",
       "title": "Arrowhead (<i>Yanone</i>)",
       "artistDisplayName": "",
-      "objectEndDate": 1725,
-      "tier": "C"
+      "artistDisplayBio": "",
+      "objectEndDate": 1645,
+      "culture": "Japanese",
+      "medium": "Steel",
+      "period": "",
+      "tier": 5
     },
     {
-      "id": 69783,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/144060.jpg",
-      "title": "Rank Badge with Leopard",
+      "id": 37052,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP123279.jpg",
+      "title": "Suruga Street",
+      "artistDisplayName": "Utagawa Hiroshige",
+      "artistDisplayBio": "Japanese, Tokyo (Edo) 1797–1858 Tokyo (Edo)",
+      "objectEndDate": 1846,
+      "culture": "Japan",
+      "medium": "Woodblock print; ink and color on paper",
+      "period": "Edo period (1615–1868)",
+      "tier": 7
+    },
+    {
+      "id": 62958,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/102725.jpg",
+      "title": "Kowtowing figure with movable head",
       "artistDisplayName": "",
+      "artistDisplayBio": "",
+      "objectEndDate": 220,
+      "culture": "China",
+      "medium": "Dark pottery with white slip",
+      "period": "Han dynasty (206 BCE–220 CE)",
+      "tier": 2
+    },
+    {
+      "id": 62704,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/16055.jpg",
+      "title": "Jar",
+      "artistDisplayName": "",
+      "artistDisplayBio": "",
       "objectEndDate": 1899,
-      "tier": "E"
+      "culture": "Japan",
+      "medium": "Clay covered with a mottled, thick glaze with white froth of Satsuma type (Seto ware)",
+      "period": "Edo (1615–1868) or Meiji period (1868–1912)",
+      "tier": 7
     },
     {
-      "id": 10561,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/ap50.101.1.jpg",
-      "title": "Study for \"Science Instructing Industry\"",
-      "artistDisplayName": "Kenyon Cox",
-      "objectEndDate": 1898,
-      "tier": "E"
-    },
-    {
-      "id": 46032,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/18738.jpg",
-      "title": "Hill Jar",
+      "id": 40296,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP-18403-062.jpg",
+      "title": "Flower-shaped Negoro Tray (Kōban) with Three Feet",
       "artistDisplayName": "",
-      "objectEndDate": 220,
-      "tier": "A"
+      "artistDisplayBio": "",
+      "objectEndDate": 1499,
+      "culture": "Japan",
+      "medium": "Wood with coatings of red over black lacquer (Negoro ware)",
+      "period": "Muromachi period (1392–1573)",
+      "tier": 3
     },
     {
-      "id": 49749,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/1998_544_90a.jpg",
-      "title": "Pair of Ear Clips",
+      "id": 41557,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/21_175_308ab_O1.jpg",
+      "title": "Snuff Bottle",
       "artistDisplayName": "",
+      "artistDisplayBio": "",
+      "objectEndDate": 1795,
+      "culture": "China",
+      "medium": "Peking glass",
+      "period": "Qing dynasty (1644–1911), Qianlong period (1736–95)",
+      "tier": 6
+    },
+    {
+      "id": 57691,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/81_1_256_T.jpg",
+      "title": "Tray",
+      "artistDisplayName": "",
+      "artistDisplayBio": "",
+      "objectEndDate": 1899,
+      "culture": "Japan",
+      "medium": "Lacquer with black ground, hiramakie design in gold and silver",
+      "period": "Edo (1615–1868) or Meiji period (1868–1912)",
+      "tier": 7
+    },
+    {
+      "id": 26723,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/aa/original/14.25.305_002jan2015.jpg",
+      "title": "Boar Spear",
+      "artistDisplayName": "",
+      "artistDisplayBio": "",
+      "objectEndDate": 1625,
+      "culture": "German",
+      "medium": "Steel, wood (ash), brass, textile",
+      "period": "",
+      "tier": 5
+    },
+    {
+      "id": 5439,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/ADA5305.jpg",
+      "title": "Whale Oil Lamp",
+      "artistDisplayName": "",
+      "artistDisplayBio": "",
+      "objectEndDate": 1840,
+      "culture": "",
+      "medium": "Pressed and free-blown lead glass",
+      "period": "",
+      "tier": 7
+    },
+    {
+      "id": 26335,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/aa/original/46.122.91_002dec2013.jpg",
+      "title": "Sword Guard (Tsuba)",
+      "artistDisplayName": "",
+      "artistDisplayBio": "",
+      "objectEndDate": 1799,
+      "culture": "Japanese",
+      "medium": "Iron, copper-gold alloy (shakudō), silver",
+      "period": "",
+      "tier": 6
+    },
+    {
+      "id": 50537,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/192228.jpg",
+      "title": "Bowl (one of a pair)",
+      "artistDisplayName": "",
+      "artistDisplayBio": "",
+      "objectEndDate": 1916,
+      "culture": "China",
+      "medium": "Porcelain",
+      "period": "Hongxian mark and period (1915–16)",
+      "tier": 8
+    },
+    {
+      "id": 12677,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DP105035.jpg",
+      "title": "Mrs. Joseph Anthony Jr. (Henrietta Hillegas)",
+      "artistDisplayName": "Gilbert Stuart",
+      "artistDisplayBio": "American, North Kingston, Rhode Island 1755–1828 Boston, Massachusetts",
+      "objectEndDate": 1798,
+      "culture": "American",
+      "medium": "Oil on canvas",
+      "period": "",
+      "tier": 6
+    },
+    {
+      "id": 21947,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/aa/original/04.3.63_001june2014.jpg",
+      "title": "Halberd",
+      "artistDisplayName": "",
+      "artistDisplayBio": "",
+      "objectEndDate": 1625,
+      "culture": "Italian",
+      "medium": "Steel, wood, textile",
+      "period": "",
+      "tier": 5
+    },
+    {
+      "id": 75078,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP154983.jpg",
+      "title": "Page from a Dispersed Kalpa Sutra (Jain Book of Rituals)",
+      "artistDisplayName": "",
+      "artistDisplayBio": "",
+      "objectEndDate": 1499,
+      "culture": "India (Gujarat)",
+      "medium": "Ink, opaque watercolor, and gold on paper",
+      "period": "",
+      "tier": 3
+    },
+    {
+      "id": 52755,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/45423.jpg",
+      "title": "Jar",
+      "artistDisplayName": "",
+      "artistDisplayBio": "",
+      "objectEndDate": 1566,
+      "culture": "China",
+      "medium": "Porcelain",
+      "period": "Ming dynasty (1368–1644), Jiajing period (1522–66)",
+      "tier": 4
+    },
+    {
+      "id": 21940,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/aa/original/DP282465.jpg",
+      "title": "Crossbow of Count Ulrich V of Württemberg (1413–1480)",
+      "artistDisplayName": "Heinrich Heid von Winterthur",
+      "artistDisplayBio": "probably Swiss, active Stuttgart, recorded 1453–1460",
+      "objectEndDate": 1460,
+      "culture": "German, probably Stuttgart",
+      "medium": "Wood (European hornbeam), horn, animal sinew, staghorn, birch bark, iron alloy, copper alloy, pigment",
+      "period": "",
+      "tier": 3
+    },
+    {
+      "id": 43912,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/32729.jpg",
+      "title": "Miniature Dish",
+      "artistDisplayName": "",
+      "artistDisplayBio": "",
+      "objectEndDate": 1795,
+      "culture": "China",
+      "medium": "Jadeite",
+      "period": "Qing dynasty (1644–1911), Qianlong period (1736–95)",
+      "tier": 6
+    },
+    {
+      "id": 54390,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP143995.jpg",
+      "title": "Young Nobleman Crouching beside His Horse",
+      "artistDisplayName": "Suzuki Kiitsu",
+      "artistDisplayBio": "Japanese, 1796–1858",
+      "objectEndDate": 1810,
+      "culture": "Japan",
+      "medium": "Woodblock print (surimono); ink and color on paper",
+      "period": "Edo period (1615–1868)",
+      "tier": 7
+    },
+    {
+      "id": 40319,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP704132.jpg",
+      "title": "Box for Accessories (Tebako) with Chrysanthemum Boy (Kikujidō) Pattern",
+      "artistDisplayName": "",
+      "artistDisplayBio": "",
+      "objectEndDate": 1633,
+      "culture": "Japan",
+      "medium": "Lacquered wood with gold togidashimaki-e on black lacquer",
+      "period": "Edo period (1615–1868)",
+      "tier": 5
+    },
+    {
+      "id": 10585,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/ap1970.9.26 recto.jpg",
+      "title": "Torre dei Schiavi, The Roman Campagna (from Cropsey Album)",
+      "artistDisplayName": "Jasper Francis Cropsey",
+      "artistDisplayBio": "American, Rossville, New York 1823–1900 Hastings-on-Hudson, New York",
+      "objectEndDate": 1853,
+      "culture": "American",
+      "medium": "Graphite, white gouache, and brown and gray ink washes on dark buff wove paper",
+      "period": "",
+      "tier": 7
+    },
+    {
+      "id": 42526,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP-14609-087.jpg",
+      "title": "Dish with Gardenia",
+      "artistDisplayName": "",
+      "artistDisplayBio": "",
+      "objectEndDate": 1599,
+      "culture": "China",
+      "medium": "Porcelain painted with cobalt blue under and colored enamel over transparent glaze (Jingdezhen ware)",
+      "period": "Ming dynasty (1368–1644)",
+      "tier": 4
+    },
+    {
+      "id": 67843,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP11639.jpg",
+      "title": "Piece",
+      "artistDisplayName": "",
+      "artistDisplayBio": "",
+      "objectEndDate": 1899,
+      "culture": "Japan",
+      "medium": "Silk",
+      "period": "",
+      "tier": 7
+    },
+    {
+      "id": 5912,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/34631.jpg",
+      "title": "Plaque",
+      "artistDisplayName": "Louis C. Tiffany",
+      "artistDisplayBio": "American, New York 1848–1933 New York",
+      "objectEndDate": 1893,
+      "culture": "American",
+      "medium": "Favrile glass",
+      "period": "",
+      "tier": 7
+    },
+    {
+      "id": 64056,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/1977_375_41_O1_sf.jpg",
+      "title": "Preface and Admonitions for Scrupulous Conduct",
+      "artistDisplayName": "",
+      "artistDisplayBio": "",
+      "objectEndDate": 1999,
+      "culture": "China",
+      "medium": "Ink on paper",
+      "period": "",
+      "tier": 8
+    },
+    {
+      "id": 33112,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/aa/original/LC-20_152_135-001.jpg",
+      "title": "Pendant",
+      "artistDisplayName": "",
+      "artistDisplayBio": "",
+      "objectEndDate": 1500,
+      "culture": "French",
+      "medium": "Bronze",
+      "period": "",
+      "tier": 4
+    },
+    {
+      "id": 71577,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP15355.jpg",
+      "title": "Piece",
+      "artistDisplayName": "",
+      "artistDisplayBio": "",
+      "objectEndDate": 1799,
+      "culture": "Japan",
+      "medium": "Silk / Compound weave",
+      "period": "Edo period (1615–1868)",
+      "tier": 6
+    },
+    {
+      "id": 43702,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/32925.jpg",
+      "title": "Weapon",
+      "artistDisplayName": "",
+      "artistDisplayBio": "",
+      "objectEndDate": 1902,
+      "culture": "Canada (British Columbia)",
+      "medium": "Nephrite, spinach-green",
+      "period": "",
+      "tier": 8
+    },
+    {
+      "id": 70404,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/185509.jpg",
+      "title": "Piece",
+      "artistDisplayName": "",
+      "artistDisplayBio": "",
+      "objectEndDate": 1899,
+      "culture": "Japan",
+      "medium": "Hemp",
+      "period": "",
+      "tier": 7
+    },
+    {
+      "id": 72826,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP144009.jpg",
+      "title": "Plum Blossoms in the Forrest of Ikuta, from the series Bravery-Beauty of the four seasons (Buyū setsugekka no uchi-Ikuta no mori, Ebira no ume)",
+      "artistDisplayName": "Tsukioka Yoshitoshi",
+      "artistDisplayBio": "Japanese, 1839–1892",
+      "objectEndDate": 1867,
+      "culture": "Japan",
+      "medium": "Triptych of woodblock prints; ink and color on paper",
+      "period": "Edo period (1615–1868)",
+      "tier": 7
+    },
+    {
+      "id": 20208,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/L.2009.22.290.jpg",
+      "title": "Bowl",
+      "artistDisplayName": "George E. Ohr",
+      "artistDisplayBio": "American, Biloxi, Mississippi 1857–1918  Biloxi, Mississippi",
+      "objectEndDate": 1913,
+      "culture": "American",
+      "medium": "Earthenware",
+      "period": "",
+      "tier": 8
+    },
+    {
+      "id": 19725,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/40.136.1ab_F.jpg",
+      "title": "Wedding Dress",
+      "artistDisplayName": "",
+      "artistDisplayBio": "",
+      "objectEndDate": 1763,
+      "culture": "British or French",
+      "medium": "Silk",
+      "period": "",
+      "tier": 6
+    },
+    {
+      "id": 58454,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/81_1_352_O3.JPG",
+      "title": "Case (Inrō) with Design of Scattered Chrysanthemums (Kikumon)",
+      "artistDisplayName": "",
+      "artistDisplayBio": "",
+      "objectEndDate": 1899,
+      "culture": "Japan",
+      "medium": "Lacquer, roiro, nashiji, gold hiramakie, togidashi, gold foil, aogai; Interior: nashiji and fundame",
+      "period": "Edo (1615–1868) or Meiji period (1868–1912)",
+      "tier": 7
+    },
+    {
+      "id": 36677,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP152391.jpg",
+      "title": "Women Parading in an Imitation of the Cortege of a Daimyo",
+      "artistDisplayName": "Utagawa Toyokuni I",
+      "artistDisplayBio": "Japanese, 1769–1825",
+      "objectEndDate": 1807,
+      "culture": "Japan",
+      "medium": "Pentaptych of woodblock prints; ink and color on paper",
+      "period": "Edo period (1615–1868)",
+      "tier": 7
+    },
+    {
+      "id": 39850,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP324390.jpg",
+      "title": "Boulder with three figures",
+      "artistDisplayName": "",
+      "artistDisplayBio": "",
+      "objectEndDate": 1833,
+      "culture": "China",
+      "medium": "Soapstone",
+      "period": "Qing dynasty (1644–1911)",
+      "tier": 7
+    },
+    {
+      "id": 16008,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/196248.jpg",
+      "title": "Grid (from Sketchbook)",
+      "artistDisplayName": "James McNeill Whistler",
+      "artistDisplayBio": "American, Lowell, Massachusetts 1834–1903 London",
+      "objectEndDate": 1855,
+      "culture": "American",
+      "medium": "Graphite on buff wove paper",
+      "period": "",
+      "tier": 7
+    },
+    {
+      "id": 8705,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/LC-83_2_454-001.jpg",
+      "title": "Token of James Buchanan",
+      "artistDisplayName": "",
+      "artistDisplayBio": "",
+      "objectEndDate": 1876,
+      "culture": "",
+      "medium": "Bronze",
+      "period": "",
+      "tier": 7
+    },
+    {
+      "id": 44228,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/31637.jpg",
+      "title": "Bowl",
+      "artistDisplayName": "",
+      "artistDisplayBio": "",
+      "objectEndDate": 1795,
+      "culture": "China",
+      "medium": "Jade",
+      "period": "Qing dynasty (1644–1911), Qianlong period (1736–95)",
+      "tier": 6
+    },
+    {
+      "id": 46718,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/LC-91_1_421_whs-002.jpg",
+      "title": "Meiping vase",
+      "artistDisplayName": "",
+      "artistDisplayBio": "",
+      "objectEndDate": 1899,
+      "culture": "China",
+      "medium": "Stoneware with Jun-type glaze (Shiwan ware)",
+      "period": "Qing dynasty (1644–1911)",
+      "tier": 7
+    },
+    {
+      "id": 3560,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/174336.jpg",
+      "title": "Ewer",
+      "artistDisplayName": "",
+      "artistDisplayBio": "",
+      "objectEndDate": 1895,
+      "culture": "British, probably",
+      "medium": "Blown satin opaque amber glass",
+      "period": "",
+      "tier": 7
+    },
+    {
+      "id": 6080,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/153454.jpg",
+      "title": "Plate",
+      "artistDisplayName": "",
+      "artistDisplayBio": "",
+      "objectEndDate": 1835,
+      "culture": "",
+      "medium": "Lacy pressed glass",
+      "period": "",
+      "tier": 7
+    },
+    {
+      "id": 52269,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/1975_268_541_545.jpg",
+      "title": "Small Dish",
+      "artistDisplayName": "",
+      "artistDisplayBio": "",
+      "objectEndDate": 1699,
+      "culture": "Japan",
+      "medium": "Porcelain with iron glaze and overglaze blue  (Hizen ware, Matsugatani type)",
+      "period": "Edo period (1615–1868)",
+      "tier": 5
+    },
+    {
+      "id": 44623,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP122167.jpg",
+      "title": "Snow on the Sumida River",
+      "artistDisplayName": "Utagawa Hiroshige",
+      "artistDisplayBio": "Japanese, Tokyo (Edo) 1797–1858 Tokyo (Edo)",
+      "objectEndDate": 1845,
+      "culture": "Japan",
+      "medium": "Woodblock print; ink and color on paper",
+      "period": "Edo period (1615–1868)",
+      "tier": 7
+    },
+    {
+      "id": 37723,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/264837.jpg",
+      "title": "Libation Vessel in the Form of a Conch",
+      "artistDisplayName": "",
+      "artistDisplayBio": "",
+      "objectEndDate": 1199,
+      "culture": "Cambodia or Thailand",
+      "medium": "Bronze",
+      "period": "Angkor period",
+      "tier": 3
+    },
+    {
+      "id": 58262,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP149254.jpg",
+      "title": "Plum-blossom viewing in the third month at Sumida River from the series  Annual Events at Famous Places in the Eastern Capital  (Tōto meisho nenjū gyōji sangatsu sumitagawa waka mōde)",
+      "artistDisplayName": "Utagawa Hiroshige",
+      "artistDisplayBio": "Japanese, Tokyo (Edo) 1797–1858 Tokyo (Edo)",
+      "objectEndDate": 1854,
+      "culture": "Japan",
+      "medium": "Woodblock print; ink and color on paper",
+      "period": "Edo period (1615–1868)",
+      "tier": 7
+    },
+    {
+      "id": 2545,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DP267911.jpg",
+      "title": "Trinket Box",
+      "artistDisplayName": "",
+      "artistDisplayBio": "",
+      "objectEndDate": 1870,
+      "culture": "American",
+      "medium": "Parian porcelain",
+      "period": "",
+      "tier": 7
+    },
+    {
+      "id": 70076,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP13895.jpg",
+      "title": "Stencil",
+      "artistDisplayName": "",
+      "artistDisplayBio": "",
+      "objectEndDate": 1899,
+      "culture": "Japan",
+      "medium": "Paper",
+      "period": "",
+      "tier": 7
+    },
+    {
+      "id": 47104,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/30150.jpg",
+      "title": "Brush Holder",
+      "artistDisplayName": "Kasuke",
+      "artistDisplayBio": "",
+      "objectEndDate": 1790,
+      "culture": "Japan",
+      "medium": "Pottery, made after Chinese enameled biscuits (Kyoto ware)",
+      "period": "Edo period (1615–1868)",
+      "tier": 6
+    },
+    {
+      "id": 38308,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/1986_506_9_264829.jpg",
+      "title": "Covered Jar",
+      "artistDisplayName": "",
+      "artistDisplayBio": "",
+      "objectEndDate": 1099,
+      "culture": "Thailand",
+      "medium": "Stone",
+      "period": "Angkor period",
+      "tier": 3
+    },
+    {
+      "id": 37186,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP135645.jpg",
+      "title": "The Oiran Hinazuru of Chojiya Standing upon a Pile of Futon",
+      "artistDisplayName": "Kitagawa Utamaro",
+      "artistDisplayBio": "Japanese, ca. 1754–1806",
+      "objectEndDate": 1804,
+      "culture": "Japan",
+      "medium": "Woodblock print; ink and color on paper",
+      "period": "Edo period (1615–1868)",
+      "tier": 7
+    },
+    {
+      "id": 67074,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP12713.jpg",
+      "title": "Piece",
+      "artistDisplayName": "",
+      "artistDisplayBio": "",
+      "objectEndDate": 1899,
+      "culture": "Japan",
+      "medium": "Silk",
+      "period": "",
+      "tier": 7
+    },
+    {
+      "id": 68927,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/TP462.jpg",
+      "title": "Rank Badge with Mandarin Duck",
+      "artistDisplayName": "",
+      "artistDisplayBio": "",
+      "objectEndDate": 1833,
+      "culture": "China",
+      "medium": "Silk, metallic thread on silk",
+      "period": "Qing dynasty (1644–1911)",
+      "tier": 7
+    },
+    {
+      "id": 56904,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP123207.jpg",
+      "title": "Panorama of Miwo Pine Wood from Ejiri",
+      "artistDisplayName": "Utagawa Hiroshige",
+      "artistDisplayBio": "Japanese, Tokyo (Edo) 1797–1858 Tokyo (Edo)",
+      "objectEndDate": 1834,
+      "culture": "Japan",
+      "medium": "Woodblock print; ink and color on paper",
+      "period": "Edo period (1615–1868)",
+      "tier": 7
+    },
+    {
+      "id": 63213,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/CP19.jpg",
+      "title": "Page from the Mustard Seed Garden Manual of Painting",
+      "artistDisplayName": "Wang Gai",
+      "artistDisplayBio": "Chinese, 1645–1710",
+      "objectEndDate": 1679,
+      "culture": "China",
+      "medium": "Woodblock print; ink and color on paper",
+      "period": "Qing dynasty (1644–1911)",
+      "tier": 5
+    },
+    {
+      "id": 4885,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/138689.jpg",
+      "title": "Looking Glass",
+      "artistDisplayName": "",
+      "artistDisplayBio": "",
+      "objectEndDate": 1820,
+      "culture": "American",
+      "medium": "Gilt gesso, wood, wire",
+      "period": "",
+      "tier": 7
+    },
+    {
+      "id": 52036,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/LC-14_40_243_whs-002.jpg",
+      "title": "Bottle vase",
+      "artistDisplayName": "",
+      "artistDisplayBio": "",
+      "objectEndDate": 1799,
+      "culture": "China",
+      "medium": "Porcelain with crackled green glaze (Jingdezhen ware)",
+      "period": "Qing dynasty (1644–1911)",
+      "tier": 6
+    },
+    {
+      "id": 32157,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/aa/original/DP-672-002.jpg",
+      "title": "Smallsword",
+      "artistDisplayName": "",
+      "artistDisplayBio": "",
+      "objectEndDate": 1780,
+      "culture": "French",
+      "medium": "Steel, gold, wood, textile",
+      "period": "",
+      "tier": 6
+    },
+    {
+      "id": 8285,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/203912.jpg",
+      "title": "Tea Table",
+      "artistDisplayName": "",
+      "artistDisplayBio": "",
+      "objectEndDate": 1790,
+      "culture": "American",
+      "medium": "Mahogany, white pine",
+      "period": "",
+      "tier": 6
+    },
+    {
+      "id": 68719,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/79018.jpg",
+      "title": "Sleeve Band",
+      "artistDisplayName": "",
+      "artistDisplayBio": "",
+      "objectEndDate": 1899,
+      "culture": "China",
+      "medium": "Silk;  on silk",
+      "period": "Qing dynasty (1644–1911)",
+      "tier": 7
+    },
+    {
+      "id": 16976,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DP283533.jpg",
+      "title": "Basin stand",
+      "artistDisplayName": "",
+      "artistDisplayBio": "",
+      "objectEndDate": 1790,
+      "culture": "American",
+      "medium": "Mahogany",
+      "period": "",
+      "tier": 6
+    },
+    {
+      "id": 4440,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/123894.jpg",
+      "title": "Inkwell",
+      "artistDisplayName": "Thomas Danforth Boardman",
+      "artistDisplayBio": "1784–1873",
+      "objectEndDate": 1850,
+      "culture": "American",
+      "medium": "Pewter",
+      "period": "",
+      "tier": 7
+    },
+    {
+      "id": 62204,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/91_1_2105_O.JPG",
+      "title": "Fishing-Style Basket",
+      "artistDisplayName": "",
+      "artistDisplayBio": "",
+      "objectEndDate": 1899,
+      "culture": "Japan",
+      "medium": "Rattan with metal detail",
+      "period": "Edo (1615–1868) or Meiji (1868–1912) period",
+      "tier": 7
+    },
+    {
+      "id": 53787,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP141239.jpg",
+      "title": "Old View of the Boat-bridge at Sano in Kōzuke Province (Kōzuke Sano funabashi no kozu), from the series Remarkable Views of Bridges in Various Provinces (Shokoku meikyō kiran)",
+      "artistDisplayName": "Katsushika Hokusai",
+      "artistDisplayBio": "Japanese, Tokyo (Edo) 1760–1849 Tokyo (Edo)",
+      "objectEndDate": 1840,
+      "culture": "Japan",
+      "medium": "Woodblock print; ink and color on paper",
+      "period": "Edo period (1615–1868)",
+      "tier": 7
+    },
+    {
+      "id": 55065,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP138365.jpg",
+      "title": "Lacquer Box for Clothes",
+      "artistDisplayName": "Ryūryūkyo Shinsai",
+      "artistDisplayBio": "Japanese, active ca. 1799–1823",
+      "objectEndDate": 1835,
+      "culture": "Japan",
+      "medium": "Woodblock print (surimono); ink and color on paper",
+      "period": "",
+      "tier": 7
+    },
+    {
+      "id": 62658,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP272506.jpg",
+      "title": "Tea Jar",
+      "artistDisplayName": "",
+      "artistDisplayBio": "",
+      "objectEndDate": 1799,
+      "culture": "Japan",
+      "medium": "Clay covered with a thin glaze and with streaks in overglaze (Seto ware)",
+      "period": "Edo period (1615–1868)",
+      "tier": 6
+    },
+    {
+      "id": 64246,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/2001_794_67b.jpg",
+      "title": "Pair of Ear Ornaments, Stars",
+      "artistDisplayName": "",
+      "artistDisplayBio": "",
+      "objectEndDate": 1199,
+      "culture": "Indonesia (Central Java)",
+      "medium": "Gold",
+      "period": "",
+      "tier": 3
+    },
+    {
+      "id": 40264,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP704205.jpg",
+      "title": "Dish with Antiquities",
+      "artistDisplayName": "",
+      "artistDisplayBio": "",
+      "objectEndDate": 1733,
+      "culture": "China",
+      "medium": "Black lacquer with mother-of-pearl inlay",
+      "period": "Qing dynasty (1644–1911)",
+      "tier": 6
+    },
+    {
+      "id": 8386,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/97815.jpg",
+      "title": "Teapot",
+      "artistDisplayName": "Joel Sayre",
+      "artistDisplayBio": "1778–1818",
+      "objectEndDate": 1810,
+      "culture": "American",
+      "medium": "Silver",
+      "period": "",
+      "tier": 7
+    },
+    {
+      "id": 49361,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/79_2_94_S1_sf.jpg",
+      "title": "Vessel in the Shape of an Archaic Bronze Gu",
+      "artistDisplayName": "",
+      "artistDisplayBio": "",
+      "objectEndDate": 1795,
+      "culture": "China",
+      "medium": "Porcelain with incised decoration under turquoise glaze",
+      "period": "Qing dynasty (1644–1911), Qianlong period (1736–95)",
+      "tier": 6
+    },
+    {
+      "id": 6142,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/24452.jpg",
+      "title": "Plate",
+      "artistDisplayName": "Job & John Jackson",
+      "artistDisplayBio": "active 1831–35",
+      "objectEndDate": 1838,
+      "culture": "British (American market)",
+      "medium": "Earthenware, transfer-printed",
+      "period": "",
+      "tier": 7
+    },
+    {
+      "id": 16564,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/ap1970.121.jpg",
+      "title": "Album",
+      "artistDisplayName": "James McNeill Whistler",
+      "artistDisplayBio": "American, Lowell, Massachusetts 1834–1903 London",
+      "objectEndDate": 1855,
+      "culture": "American",
+      "medium": "Drawings in pen and ink, graphite, gouache, and black chalk on off-white and toned wove and laid paper; cover missing",
+      "period": "",
+      "tier": 7
+    },
+    {
+      "id": 50272,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/1998_544_376.JPG",
+      "title": "Ring with Twisted Coil Motif",
+      "artistDisplayName": "",
+      "artistDisplayBio": "",
       "objectEndDate": 999,
-      "tier": "B"
+      "culture": "Indonesia (Java)",
+      "medium": "Gold",
+      "period": "Central Javanese period",
+      "tier": 2
     },
     {
-      "id": 63589,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP234645.jpg",
-      "title": "Dish",
+      "id": 35631,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/aa/original/LC-2008_165_1a_b-001.jpg",
+      "title": "Sword-Hilt Collar and Pommel (Fuchigashira)",
       "artistDisplayName": "",
+      "artistDisplayBio": "",
+      "objectEndDate": 1900,
+      "culture": "Japanese",
+      "medium": "Copper-gold alloy (shakudō), gold",
+      "period": "",
+      "tier": 8
+    },
+    {
+      "id": 1001,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DP258638.jpg",
+      "title": "Bread Plate",
+      "artistDisplayName": "",
+      "artistDisplayBio": "",
+      "objectEndDate": 1790,
+      "culture": "Chinese, for American market",
+      "medium": "Porcelain",
+      "period": "",
+      "tier": 6
+    },
+    {
+      "id": 67684,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP11598.jpg",
+      "title": "Piece",
+      "artistDisplayName": "",
+      "artistDisplayBio": "",
+      "objectEndDate": 1899,
+      "culture": "Japan",
+      "medium": "Silk, metallic thread",
+      "period": "",
+      "tier": 7
+    },
+    {
+      "id": 69425,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP13687.jpg",
+      "title": "Stencil",
+      "artistDisplayName": "",
+      "artistDisplayBio": "",
+      "objectEndDate": 1899,
+      "culture": "Japan",
+      "medium": "Paper, silk",
+      "period": "",
+      "tier": 7
+    },
+    {
+      "id": 70036,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP13879.jpg",
+      "title": "Stencil",
+      "artistDisplayName": "",
+      "artistDisplayBio": "",
+      "objectEndDate": 1868,
+      "culture": "Japan",
+      "medium": "Paper",
+      "period": "Edo period (1615–1868)",
+      "tier": 7
+    },
+    {
+      "id": 69373,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP13635.jpg",
+      "title": "Stencil",
+      "artistDisplayName": "",
+      "artistDisplayBio": "",
+      "objectEndDate": 1899,
+      "culture": "Japan",
+      "medium": "Paper, silk",
+      "period": "",
+      "tier": 7
+    },
+    {
+      "id": 66741,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP12553.jpg",
+      "title": "Piece",
+      "artistDisplayName": "",
+      "artistDisplayBio": "",
+      "objectEndDate": 1899,
+      "culture": "Japan",
+      "medium": "Silk",
+      "period": "",
+      "tier": 7
+    },
+    {
+      "id": 39735,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DT834.jpg",
+      "title": "Panel with Peonies and Butterfly",
+      "artistDisplayName": "",
+      "artistDisplayBio": "",
+      "objectEndDate": 1435,
+      "culture": "China",
+      "medium": "Needleloop embroidery of silk, gold paper, and gold thread on silk satin damask",
+      "period": "Yuan (1271–1368) or Ming (1368–1644) dynasty",
+      "tier": 3
+    },
+    {
+      "id": 33009,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/aa/original/22.122.60_001nov2014.jpg",
+      "title": "Medal Showing Charles III of Spain, 1778",
+      "artistDisplayName": "Jerónimo Antonio Gil",
+      "artistDisplayBio": "Spanish, Zamora 1731–1798 Mexico",
+      "objectEndDate": 1778,
+      "culture": "Spanish, Mexico",
+      "medium": "Bronze",
+      "period": "",
+      "tier": 6
+    },
+    {
+      "id": 60761,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/CIB5_O1.jpg",
+      "title": "Ten Bamboo Studio",
+      "artistDisplayName": "",
+      "artistDisplayBio": "",
+      "objectEndDate": 1850,
+      "culture": "China",
+      "medium": "Eight volumes of woodblock-printed books; ink and color on paper",
+      "period": "Qing dynasty (1644–1911), Daoguang period (1821–50)",
+      "tier": 7
+    },
+    {
+      "id": 4965,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/25800.jpg",
+      "title": "Medallion of the Marquis de Lafayette",
+      "artistDisplayName": "",
+      "artistDisplayBio": "",
+      "objectEndDate": 1883,
+      "culture": "",
+      "medium": "Glass",
+      "period": "",
+      "tier": 7
+    },
+    {
+      "id": 33612,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/aa/original/LC-14_25_1750-006.jpg",
+      "title": "Stirrup",
+      "artistDisplayName": "",
+      "artistDisplayBio": "",
       "objectEndDate": 1650,
-      "tier": "C"
+      "culture": "Spanish or Italian",
+      "medium": "Iron alloy",
+      "period": "",
+      "tier": 5
     },
     {
-      "id": 52,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/12875.jpg",
-      "title": "Andiron",
+      "id": 60237,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/06_415_F.JPG",
+      "title": "Medal",
       "artistDisplayName": "",
-      "objectEndDate": 1800,
-      "tier": "E"
-    },
-    {
-      "id": 42762,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/16_144_4_34738.jpg",
-      "title": "Chisel",
-      "artistDisplayName": "",
-      "objectEndDate": 220,
-      "tier": "A"
+      "artistDisplayBio": "",
+      "objectEndDate": 1899,
+      "culture": "Japan",
+      "medium": "Yellow bow with red stripes",
+      "period": "Meiji period (1868–1912)",
+      "tier": 7
     },
     {
       "id": 61031,
@@ -575,79 +1206,7 @@
       "title": "Vessel",
       "artistDisplayName": "",
       "objectEndDate": -256,
-      "tier": "S"
-    },
-    {
-      "id": 64405,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/2001_794_39.jpg",
-      "title": "Ear Ornament Garuda, Meru",
-      "artistDisplayName": "",
-      "objectEndDate": 1199,
-      "tier": "B"
-    },
-    {
-      "id": 33219,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/aa/original/LC-20_152_44-001.jpg",
-      "title": "Buckle",
-      "artistDisplayName": "",
-      "objectEndDate": 400,
-      "tier": "A"
-    },
-    {
-      "id": 69142,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP13481.jpg",
-      "title": "Stencil",
-      "artistDisplayName": "",
-      "objectEndDate": 1833,
-      "tier": "E"
-    },
-    {
-      "id": 8148,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/ADA4205.jpg",
-      "title": "Tall Clock",
-      "artistDisplayName": "William Claggett",
-      "objectEndDate": 1750,
-      "tier": "D"
-    },
-    {
-      "id": 31122,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/aa/original/36.25.1495_001Jun2015.jpg",
-      "title": "Sword (Campilan)",
-      "artistDisplayName": "",
-      "objectEndDate": 1900,
-      "tier": "F"
-    },
-    {
-      "id": 56391,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP141088.jpg",
-      "title": "Fuji Seen in the Distance from Senju Pleasure Quarter (Senju kagai yori chōbō no Fuji), from the series Thirty-six Views of Mount Fuji (Fugaku sanjūrokkei)",
-      "artistDisplayName": "Katsushika Hokusai",
-      "objectEndDate": 1842,
-      "tier": "E"
-    },
-    {
-      "id": 4823,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/17608.jpg",
-      "title": "Armchair",
-      "artistDisplayName": "",
-      "objectEndDate": 1810,
-      "tier": "E"
-    },
-    {
-      "id": 4322,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/146143.jpg",
-      "title": "Hinge",
-      "artistDisplayName": "",
-      "objectEndDate": 1800,
-      "tier": "E"
-    },
-    {
-      "id": 25694,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/aa/original/91.1.775_001dec2013.jpg",
-      "title": "Sword Guard (<i>Tsuba</i>) Depicting Two Gibbons (二疋手長猿図鐔)",
-      "artistDisplayName": "",
-      "objectEndDate": 1900,
-      "tier": "F"
+      "tier": 1
     },
     {
       "id": 65256,
@@ -655,47 +1214,7 @@
       "title": "Plaque in the Shape of a Chariot",
       "artistDisplayName": "",
       "objectEndDate": -600,
-      "tier": "S"
-    },
-    {
-      "id": 33483,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/aa/original/19.154.97_001feb2014.jpg",
-      "title": "Sword Guard (Tsuba)",
-      "artistDisplayName": "",
-      "objectEndDate": 1900,
-      "tier": "F"
-    },
-    {
-      "id": 55839,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP149381.jpg",
-      "title": "Chiyoda Castle (Album of Women)",
-      "artistDisplayName": "Yōshū (Hashimoto) Chikanobu",
-      "objectEndDate": 1895,
-      "tier": "E"
-    },
-    {
-      "id": 58379,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/81_1_304_O3.JPG",
-      "title": "Case (Inrō) with Design of Thatched Building in Hilly Landscape with Trees and Waves with Nestuke of Thatched Building in a Landscape",
-      "artistDisplayName": "",
-      "objectEndDate": 1799,
-      "tier": "D"
-    },
-    {
-      "id": 52478,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/23_225_143.JPG",
-      "title": "Bowl",
-      "artistDisplayName": "",
-      "objectEndDate": 1760,
-      "tier": "D"
-    },
-    {
-      "id": 45509,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP221030.jpg",
-      "title": "Amida Triad in the Form of Sacred Sanskrit Syllables",
-      "artistDisplayName": "",
-      "objectEndDate": 1299,
-      "tier": "B"
+      "tier": 1
     },
     {
       "id": 49536,
@@ -703,47 +1222,15 @@
       "title": "Top of a bridge pin",
       "artistDisplayName": "",
       "objectEndDate": -1,
-      "tier": "S"
+      "tier": 1
     },
     {
-      "id": 47639,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/1993_386_27_O1_sf.jpg",
-      "title": "Long-neck vase with tubular handles",
+      "id": 59580,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/2002_201_193_O1.jpg",
+      "title": "Belt Buckle in the Shape of a Wolf",
       "artistDisplayName": "",
-      "objectEndDate": 1899,
-      "tier": "E"
-    },
-    {
-      "id": 35141,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/aa/original/24.129.4_001feb2014.jpg",
-      "title": "Sword Guard (Tsuba)",
-      "artistDisplayName": "",
-      "objectEndDate": 1700,
-      "tier": "D"
-    },
-    {
-      "id": 75014,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP154857.jpg",
-      "title": "Page from a Dispersed Kalpa Sutra (Jain Book of Rituals)",
-      "artistDisplayName": "",
-      "objectEndDate": 1499,
-      "tier": "C"
-    },
-    {
-      "id": 2699,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/186968.jpg",
-      "title": "Creamer",
-      "artistDisplayName": "Portland Glass Company",
-      "objectEndDate": 1874,
-      "tier": "E"
-    },
-    {
-      "id": 66271,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP11493.jpg",
-      "title": "Piece",
-      "artistDisplayName": "",
-      "objectEndDate": 1899,
-      "tier": "E"
+      "objectEndDate": -300,
+      "tier": 1
     },
     {
       "id": 65292,
@@ -751,145 +1238,15 @@
       "title": "Belt Buckle with Recumbent Stags",
       "artistDisplayName": "",
       "objectEndDate": -100,
-      "tier": "S"
+      "tier": 1
     },
     {
-      "id": 5578,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/82731.jpg",
-      "title": "Pembroke Table",
-      "artistDisplayName": "Duncan Phyfe",
-      "objectEndDate": 1820,
-      "tier": "E"
-    },
-    {
-      "id": 45305,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP123560.jpg",
-      "title": "The Ono at Ryogoku Yanagibashi",
-      "artistDisplayName": "Utagawa Hiroshige",
-      "objectEndDate": 1852,
-      "tier": "E"
-    },
-    {
-      "id": 4077,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DP252539.jpg",
-      "title": "Goblet",
+    "id": 45613,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP276270.jpg",
+      "title": "One of the Twelve Devas: Katen",
       "artistDisplayName": "",
-      "objectEndDate": 1870,
-      "tier": "E"
-    },
-    {
-      "id": 66026,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP11507.jpg",
-      "title": "Piece",
-      "artistDisplayName": "",
-      "objectEndDate": 1899,
-      "tier": "E"
-    },
-    {
-      "id": 52169,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/36_120_677_109793.jpg",
-      "title": "Vase",
-      "artistDisplayName": "Takakazu",
-      "objectEndDate": 1590,
-      "tier": "C"
-    },
-    {
-      "id": 9485,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DT289452.jpg",
-      "title": "Vase",
-      "artistDisplayName": "Louis C. Tiffany",
-      "objectEndDate": 1896,
-      "tier": "E"
-    },
-    {
-      "id": 46508,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/LC-14_40_106_whs-001.jpg",
-      "title": "Mallet-shaped vase",
-      "artistDisplayName": "",
-      "objectEndDate": 1722,
-      "tier": "D"
-    },
-    {
-      "id": 67606,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP13150.jpg",
-      "title": "Piece",
-      "artistDisplayName": "",
-      "objectEndDate": 1899,
-      "tier": "E"
-    },
-    {
-      "id": 73223,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP302904.jpg",
-      "title": "Wrist Rest with Scene from \"The West Chamber\"",
-      "artistDisplayName": "",
-      "objectEndDate": 1734,
-      "tier": "D"
-    },
-    {
-      "id": 15808,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/261122.jpg",
-      "title": "Landscape Sketch (from Sketchbook)",
-      "artistDisplayName": "Albert Bierstadt",
-      "objectEndDate": 1890,
-      "tier": "E"
-    },
-    {
-      "id": 62500,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/59_17_8.JPG",
-      "title": "Rubbing of a Defiling Army",
-      "artistDisplayName": "",
-      "objectEndDate": 1999,
-      "tier": "F"
-    },
-    {
-      "id": 40469,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP704290.jpg",
-      "title": "Sword Case (Katana-tsutsu) with Clematis and Checkered Pattern",
-      "artistDisplayName": "",
-      "objectEndDate": 1699,
-      "tier": "C"
-    },
-    {
-      "id": 15963,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/262853.jpg",
-      "title": "Outline of A View Across A Lake (from Sketchbook)",
-      "artistDisplayName": "Thomas Hewes Hinckley",
-      "objectEndDate": 1867
-    },
-    {
-      "id": 75052,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP154930.jpg",
-      "title": "Page from a Dispersed Kalpa Sutra (Jain Book of Rituals)",
-      "artistDisplayName": "",
-      "objectEndDate": 1499
-    },
-    {
-      "id": 62065,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/1981_296_13_O1.jpg",
-      "title": "Cup for Use with Diamond-Point",
-      "artistDisplayName": "",
-      "objectEndDate": 1999
-    },
-    {
-      "id": 50541,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/176170.jpg",
-      "title": "Sutra Cover",
-      "artistDisplayName": "",
-      "objectEndDate": 1599
-    },
-    {
-      "id": 75108,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP154698.jpg",
-      "title": "Leaf from a Kalpa Sutra (Jain Book of Rituals)",
-      "artistDisplayName": "Bhadrabahu",
-      "objectEndDate": 1499
-    },
-    {
-      "id": 39158,
-      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/1986_490_1.jpg",
-      "title": "Standing Buddha",
-      "artistDisplayName": "",
-      "objectEndDate": 1099
+      "objectEndDate": 1392,
+      "tier": 0
     }
   ]
 }

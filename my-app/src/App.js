@@ -1,4 +1,3 @@
-
 import React,{ useState, useEffect } from "react"
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 import NavBar from "./Navbar";
@@ -6,8 +5,50 @@ import GenerateNewCard from "./GenerateNewCard";
 import CardInventory from "./CardInventory";
 import LearnMore from "./LearnMore";
 import Home from "./Home";
+import Wallet from "./Wallet";
+import BuySellCards from "./BuySellCards";
+
+import RandomCards from "./RandomCards";
+
 
 function App() {
+
+const [data, setData] = useState([]);
+
+
+ 
+useEffect(() => {
+  fetchCardPack();
+  
+}, []);
+
+const fetchCardPack = () => {
+
+  fetch(`http://localhost:3000/cards`)
+  .then(res => res.json())
+  .then(data => {
+
+    
+    setData(data);
+
+
+
+  })
+} 
+
+      
+    
+  
+ 
+ 
+  
+
+ 
+  
+//       <Wallet />
+
+//       <RandomCards data={data} />
+
 
   return (
     <div>
@@ -18,6 +59,7 @@ function App() {
         <Route exact path="/CardInventory" element={<CardInventory />}/>
         <Route exact path="/LearnMore" element={<LearnMore />}/>
       </Routes>
+
     </div>
   );
 }
