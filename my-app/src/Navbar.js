@@ -3,16 +3,14 @@ import { NavLink } from "react-router-dom";
 
 
 
-
-
 function NavBar() {
   return (
-    <div className="navbarStyles">
-      <nav>
-      <NavLink to="/" className="topnav"> Home </NavLink>
-      <NavLink to="/GenerateNewCard" className="topnav"> Generate New Card </NavLink>
-      <NavLink to="/LearnMore" className="topnav"> Learn More </NavLink>
-      <NavLink to="/CardInventory" className="topnav"> Card Inventory </NavLink>
+    <div >
+      <nav className="navbarStyles">
+      <li> <NavLink to="/" > Home </NavLink></li>
+      <li><NavLink to="/GenerateNewCard" > Generate New Card </NavLink></li>
+      <li><NavLink to="/LearnMore" > Learn More </NavLink></li>
+      <li><NavLink to="/CardInventory" > Card Inventory </NavLink></li>
       </nav>
     </div>
   );

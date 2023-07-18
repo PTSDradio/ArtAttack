@@ -19,38 +19,38 @@ code {
     monospace;
 }
 
-/* Add a black background color to the top navigation */
-.topnav {
+.navbarStyles{
+  display: flex;
+  justify-Content: center;
+  list-style: none;
+  margin: 0;
   background-color: #aa805d;
-  overflow: hidden;
 }
 
+
 /* Style the links inside the navigation bar */
-.topnav a {
+.navbarStyles a {
   float: left;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+
 }
   
 /* Change the color of links on hover */
-.topnav a:hover {
+.navbarStyles a:hover {
   background-color: #ddd;
   color: black;
 }
 
 /* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #04AA6D;
-  color: white;
+.navbarStyles a.active {
+  background-color: #9da5d2;
+  color: rgb(13, 13, 13);
 }
 
-.navbarStyles{
-  display: flex;
-  justify-Content: center;
-}
 
 .display-container {
   display: inline-block;

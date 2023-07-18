@@ -4,8 +4,8 @@ function CardDisplay({ card }){
 
     return (
         <div className="card-container">
-            <h1>{card.title}</h1>
-            <h2>Tier: {card.tier} </h2>
+            <h2>{card.title}</h2>
+            <h3>Tier: {card.tier} </h3>
             <img src={card.primaryImage} alt={card.title}></img>
         </div>
     )

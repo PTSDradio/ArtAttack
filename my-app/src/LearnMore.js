@@ -13,7 +13,7 @@ function LearnMore(){
             "culture": "Japan",
             "period": "Nanbokuchō period (1336–92)",
             "medium": "Hanging scroll; hand-colored print on paper",
-            "objectURL": "Hanging scroll; hand-colored print on paper"
+            "objectURL": "https://www.metmuseum.org/art/collection/search/45613"
           }
     )
     const additionalInfo = (
