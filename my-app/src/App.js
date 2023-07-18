@@ -10,11 +10,11 @@ import BuySellCards from "./BuySellCards";
 
 import RandomCards from "./RandomCards";
 
+
 function App() {
 
 const [data, setData] = useState([]);
-// const [array, setArray] = useState([]);
-// const [display, setDisplay] = useState([]);
+
 
  
 useEffect(() => {
@@ -43,31 +43,22 @@ const fetchCardPack = () => {
  
   
 
+ 
   
-  // let myPromise = new Promise((cardDisplay) => {
-  //   if (array.length === 3) {
-  //     setTimeout(cardDisplay(array), 500)
-  //   }
-  //   else {
-  //     console.log("no more cards")
-  //   }
+//       <Wallet />
 
+//       <RandomCards data={data} />
 
-  // });
-  
-  // myPromise.then(
-  //   function(value) {cardDisplay(value);},
-  // );
 
   return (
     <div>
-      
-  
-      <Wallet />
-      <div> 
-        
-      </div>
-      <RandomCards data={data} />
+      <NavBar />
+      <Routes>
+        <Route exact path="/" element={<Home/>}/>
+        <Route exact path="/GenerateNewCard" element={<GenerateNewCard />}/>
+        <Route exact path="/CardInventory" element={<CardInventory />}/>
+        <Route exact path="/LearnMore" element={<LearnMore />}/>
+      </Routes>
 
     </div>
   );
