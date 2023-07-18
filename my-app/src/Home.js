@@ -1,6 +1,5 @@
 import React from "react";
 import UserCard from "./UserCard";
-import CPUcard from "./CPUcard";
 import Battle from "./Battle";
 
 

@@ -13,7 +13,7 @@ function UserCard(){
     )
 
     return (
-    <div className="container">
+    <div className="flex-container">
         <div className="card-container">
             <h1>{card.title}</h1>
             <h2>Tier: {card.tier} </h2>

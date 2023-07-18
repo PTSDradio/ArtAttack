@@ -5,6 +5,7 @@ import CardDisplay from "./CardDisplay";
 
 function CardInventory(){
     const [userCards, setUserCards] = useState([])
+    
     useEffect(() => {
       setUserCards([{
         "id": 1417,
@@ -34,7 +35,7 @@ function CardInventory(){
 
     const userCardInventory = (
         userCards.map((card) => (
-          <div className="container">
+          <div className="display-container">
             <CardDisplay key={card.id} card={card}/> 
             <button className="generic-button"> Equip Card </button>
             <button className="generic-button"> Sell Card</button>
@@ -43,7 +44,7 @@ function CardInventory(){
     )
 
     return (
-        <div>
+        <div className="flex-container">
             {userCardInventory}
         </div>
     )

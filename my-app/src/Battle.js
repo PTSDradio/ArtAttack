@@ -3,14 +3,14 @@ import CPUcard from "./CPUcard";
 
 function Battle(){
     const [opponent, setOpponent] = useState([])
+    const [userCard, setUserCard] = useState([])
 
+    //Temporary states to simulate 
     const beginBattle = () => {
         const newOpponent = (
             <div>
-                <button className="fight-button" onClick={runBattle}> Fight! </button>
-            <div className="opponent-card-container">
-                 <CPUcard />
-             </div>
+                <button className="generic-button" onClick={runBattle}> Fight! </button>
+                <CPUcard />
              </div>
         ) 
         setOpponent(newOpponent);
@@ -24,7 +24,7 @@ function Battle(){
 
     return (
         <div>
-            <button className="battle-button" onClick={beginBattle}>Begin Battle</button>
+            <button className="generic-button" onClick={beginBattle}>Begin Battle</button>
             {opponent}
         </div>
     )
