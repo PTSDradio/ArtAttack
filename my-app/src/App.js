@@ -30,13 +30,7 @@ const fetchCardPack = () => {
   fetch(`http://localhost:3000/cards`)
   .then(res => res.json())
   .then(data => {
->>>>>>> 6760037daa9779af7461cbcb01405f05adfdc6ed
-
-    
-    setData(data);
-
-
-
+    setData(data)
   })
 } 
 
