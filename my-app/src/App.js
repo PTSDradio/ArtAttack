@@ -9,12 +9,14 @@ import Home from "./Home";
 
 function App() {
 
-const [dataArr, setData] = useState([]);
-const [array, setArray] = useState([]);
+const [main, setMain] = useState([]);
+// const [array, setArray] = useState([]);
+const [trash , setTrash] = useState([]);
+
 
 
 useEffect(() => {
-  for (let i = 0; i < 10; i++) {
+  for (let i = 0; i < 4; i++) {
     fetchRandomData();
   }
 }, []);
@@ -24,23 +26,26 @@ const fetchRandomData = () => {
   fetch(`https://collectionapi.metmuseum.org/public/collection/v1/objects/${randomNumber}`)
     .then((response) => response.json())
     .then((data) => {
-      console.log(randomNumber);
+      // console.log(randomNumber);
       if (data.message !== "ObjectID not found") {
         if (data.isPublicDomain === true && data.primaryImage.includes("http")) {
-          const newData = { id: data.objectID, ...data };
-          setArray((prevArray) => [...prevArray, newData]);
-          setData(newData);
-          
-          console.log(dataArr.length);
+          // const newData = { id: data.objectID, ...data };
+          console.log(data);
+         
+          setMain((main) => [...main, data])
+          // debugger
+          console.log(main)
+          console.log("this many", main.length);
           
         }
         else {
-          let trashData = []
+          setTrash(...trash, data)
+          
         }
       }
     });
 };
-
+console.log(main);
 // const postData = (data) => {
 //   const postData = {
 //     id: data.id,
@@ -75,7 +80,7 @@ const fetchRandomData = () => {
   //     ))}
   return (
     <div>
-      <BrowserRouter>
+      {/* <BrowserRouter> */}
       <NavBar />
         <Routes>
         <Route exact path="/" element={<Home/>}/>
@@ -83,7 +88,7 @@ const fetchRandomData = () => {
         <Route exact path="/CardInventory" element={<CardInventory />}/>
         <Route exact path="/LearnMore" element={<LearnMore />}/>
         </Routes>
-    </BrowserRouter>
+    {/* </BrowserRouter> */}
 
     </div>
   );
