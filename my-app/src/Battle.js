@@ -1,31 +1,78 @@
-import React, { useState } from "react";
+import React, { useState, useEffect} from "react";
 import CPUcard from "./CPUcard";
 
 function Battle(){
-    const [opponent, setOpponent] = useState([])
-    const [userCard, setUserCard] = useState([])
+    const [opponentCards, setOpponentCards] = useState([])
+    const [userCards, setUserCard] = useState([])
+    const [opponentState, setOpponent] = useState([])
+    let player = []
+    let opponent = []
+    // http://localhost:3000/cards
 
-    //Temporary states to simulate 
+    useEffect(() => {
+    fetch("http://localhost:3000/players_cards")
+    .then(res => res.json())
+    .then(data => {
+        player = data
+        setUserCard(data)
+        
+    })
+
+    fetch("http://localhost:3000/opponents_cards")
+    .then(res => res.json())
+    .then(data => {
+        opponent = data
+        setOpponentCards(opponent)
+    })
+    }, [])
+
+
+ 
     const beginBattle = () => {
-        const newOpponent = (
+        console.log("begin battle")
+        const opponentDivs = (
+        
             <div>
                 <button className="generic-button" onClick={runBattle}> Fight! </button>
-                <CPUcard />
+                
              </div>
-        ) 
-        setOpponent(newOpponent);
+
+        )
+        setOpponent(opponentDivs)
     }
 
     const runBattle = () => {
-        //This is where logic will go, to compare the tiers of user card versus CPU card. We can also have a deal damage system. 
+        
+                
+      
+        const currentPlayerCard = userCards[Math.floor(Math.random() * userCards.length)];
+        
+        
+        const currentOpponentCard = opponentCards[Math.floor(Math.random() * opponentCards.length)]; 
+
+        if (currentPlayerCard.tier > currentOpponentCard.tier) {
+            window.alert("You have won!")
+        
+        } else if (currentPlayerCard.tier < currentOpponentCard.tier) {
         window.alert("Your card has been defeated!")
+    }
+    else {
+        const playerNum = Math.floor(Math.random() * 5000);
+        const opponentNum = Math.floor(Math.random() * 5000);
+        if (playerNum > opponentNum) {
+            window.alert("You have won!")
+        } else if (playerNum < opponentNum) {
+            window.alert("Your card has been defeated!")
+        } else {
+            window.alert("You have tied!")
+        }
         
     }
-
+    }
     return (
         <div>
             <button className="generic-button" onClick={beginBattle}>Begin Battle</button>
-            {opponent}
+            {opponentState}
         </div>
     )
 }
