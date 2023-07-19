@@ -37,7 +37,6 @@ function CardInventory(){
         userCards.map((card) => (
           <div className="display-container">
             <CardDisplay key={card.id} card={card}/> 
-            <button className="generic-button"> Equip Card </button>
             <button className="generic-button"> Sell Card</button>
           </div>
         ))

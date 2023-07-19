@@ -1,12 +1,12 @@
 import React from "react";
-import UserCard from "./UserCard";
 import Battle from "./Battle";
+import CardDisplay from "./CardDisplay";
 
 
 function Home(){
     return (
         <div className="home-screen">
-            <UserCard />
+            <CardDisplay />
             <Battle /> 
         </div>
     )
