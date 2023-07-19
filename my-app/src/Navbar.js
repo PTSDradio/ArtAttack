@@ -1,17 +1,11 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-const linkStyles = {
-    float: "left",
-    color: "#f2f2f2",
-    textAlign: "center",
-    padding: "14px 16px",
-    textDecoration: "none",
-    fontSize: "17px",
-};
+
 
 function NavBar() {
   return (
+<<<<<<< HEAD
     <div>
       <NavLink
         to="/"
@@ -40,6 +34,15 @@ function NavBar() {
         >
         Card Inventory
       </NavLink>
+=======
+    <div >
+      <nav className="navbarStyles">
+      <li> <NavLink to="/" > Home </NavLink></li>
+      <li><NavLink to="/GenerateNewCard" > Generate New Card </NavLink></li>
+      <li><NavLink to="/LearnMore" > Learn More </NavLink></li>
+      <li><NavLink to="/CardInventory" > Card Inventory </NavLink></li>
+      </nav>
+>>>>>>> 6760037daa9779af7461cbcb01405f05adfdc6ed
     </div>
   );
 }
