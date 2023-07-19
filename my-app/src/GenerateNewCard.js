@@ -37,15 +37,21 @@ function GenerateNewCard(){
       setData(data);
       })
     } 
-    const randomCards = cardPack.map((data) => (
-        <CardDisplay card={data} key={data.id} />
-      ))
 
+    const buyCard = () => {
+        // function here to minus price from wallet and fetch-post card to User's cards
+    }
+
+    const randomCards = cardPack.map((data) => (
+        <div>
+            <CardDisplay card={data} key={data.id} />
+            <button className="generic-button" onClick={buyCard}> Buy Card </button>
+        </div>
+      ))
 
     return (
         <div className="flex-container">
-            <h1> Generate New Card </h1>
-            <button className="generic-button" onClick={generateRandomCards}> Random Cards</button>
+            <button className="generic-button" onClick={generateRandomCards}> Generate Random Cards</button>
             {randomCards}
         </div>
     )
