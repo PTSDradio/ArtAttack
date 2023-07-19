@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import CPUcard from "./CPUcard";
+import CardDisplay from "./CardDisplay";
 
 function Battle(){
     const [opponent, setOpponent] = useState([])
@@ -24,6 +25,7 @@ function Battle(){
 
     return (
         <div>
+            <CardDisplay />
             <button className="generic-button" onClick={beginBattle}>Begin Battle</button>
             {opponent}
         </div>
