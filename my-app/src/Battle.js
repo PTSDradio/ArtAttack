@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import CPUcard from "./CPUcard";
+import CardDisplay from "./CardDisplay";
 
 function Battle() {
   const [opponentCards, setOpponentCards] = useState([]);
@@ -65,6 +66,7 @@ function Battle() {
       {opponentState}
     </div>
   );
+
 }
 
 export default Battle;
