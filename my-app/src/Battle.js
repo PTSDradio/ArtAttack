@@ -36,9 +36,9 @@ function Battle() {
             {" "}
             Fight!{" "}
           </button>
-          <div>{opponentMap}</div>
+          <div className="flex-container">{opponentMap}</div>
         </div>
-        <div>{playerMap}</div>
+        <div className="flex-container">{playerMap}</div>
       </div>
     );
     setBattle(playerDivs);

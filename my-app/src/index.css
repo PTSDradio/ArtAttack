@@ -10,7 +10,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: url('https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iKLZ4VPGMJx0/v1/-1x-1.jpg');
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   background-position: center top;
 }
 
@@ -63,6 +63,14 @@ code {
   height: 40rem;
   justify-content: center;
 }
+
+.inventory-flex-container {
+  display: flex;
+  height: 40rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 
 .flex-container img {
   max-width: 80%;
