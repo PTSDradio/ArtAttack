@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import CardDisplay from "./CardDisplay";
 
-function Battle({ money, moneyState, setMoneyState }) {
+function Battle({ moneyState, setMoneyState }) {
   const [opponentCards, setOpponentCards] = useState([]);
   const [playerCards, setPlayerCards] = useState([]);
   const [battleState, setBattle] = useState([]);

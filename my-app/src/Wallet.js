@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
 import BuySellCards from "./BuySellCards";
 
-function Wallet({ startMoney, moneyState, setMoneyState, }) {
-  
+function Wallet() {
+  let startMoney = 100;
+  const [moneyState, setMoneyState] = useState(startMoney);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -13,14 +14,14 @@ function Wallet({ startMoney, moneyState, setMoneyState, }) {
   };
 
   return (
-    <div>
-      <form id="wallet" onSubmit={handleSubmit}>
+    <div className="wallet-container">
+      <form id="wallet" onSubmit={handleSubmit} >
         <h3>Add Money to Wallet</h3>
         <input type="number" name="amount" placeholder="Enter Amount" />
-        <button type="submit">Add Money</button>
+        <button type="submit" className="generic-button">Add Money</button>
       </form>
 
-      <h3>Current Money {moneyState}</h3>
+      <h3>Total Funds: {moneyState}</h3>
       <BuySellCards moneyState={moneyState} />
     </div>
   );
