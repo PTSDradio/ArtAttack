@@ -1,36 +1,43 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, createContext } from "react";
 import CardDisplay from "./CardDisplay";
 
 //For this to work, it will need a state passed down (or created) as the array of User's cards 
 
-function CardInventory(){
+// [{
+//   "id": 1417,
+//   "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/17651.jpg",
+//   "title": "Card Table",
+//   "artistDisplayName": "",
+//   "objectEndDate": 1805,
+//   "tier": "E"
+// },
+// {
+//   "id": 54804,
+//   "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP135878.jpg",
+//   "title": "Spring Rain Collection (Harusame shū), vol. 1: Plum Tree in Bloom",
+//   "artistDisplayName": "Ryūryūkyo Shinsai",
+//   "objectEndDate": 1810,
+//   "tier": "E"
+// },
+// {
+//   "id": 45613,
+//   "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP276270.jpg",
+//   "title": "One of the Twelve Devas: Katen",
+//   "artistDisplayName": "",
+//   "objectEndDate": 1392,
+//   "tier": "B"
+// }]
+function CardInventory({cards}){
+const UserContext = createContext()
+
     const [userCards, setUserCards] = useState([])
-    
+    console.log( "inv", cards)
     useEffect(() => {
-      setUserCards([{
-        "id": 1417,
-        "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/17651.jpg",
-        "title": "Card Table",
-        "artistDisplayName": "",
-        "objectEndDate": 1805,
-        "tier": "E"
-      },
-      {
-        "id": 54804,
-        "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP135878.jpg",
-        "title": "Spring Rain Collection (Harusame shū), vol. 1: Plum Tree in Bloom",
-        "artistDisplayName": "Ryūryūkyo Shinsai",
-        "objectEndDate": 1810,
-        "tier": "E"
-      },
-      {
-        "id": 45613,
-        "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP276270.jpg",
-        "title": "One of the Twelve Devas: Katen",
-        "artistDisplayName": "",
-        "objectEndDate": 1392,
-        "tier": "B"
-      }])
+
+      fetch("http://localhost:3000/players_cards")
+      .then(res => res.json())
+      .then(data => setUserCards(data))
+      // setUserCards(data)
     }, []) 
 
     const userCardInventory = (

@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from "react";
 import RandomCards from "./RandomCards";
 import CardDisplay from "./CardDisplay";
@@ -48,6 +49,7 @@ function GenerateNewCard(){
             <button className="generic-button" onClick={buyCard}> Buy Card </button>
         </div>
       ))
+
 
     return (
         <div className="flex-container">
