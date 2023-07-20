@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, createContext } from "react";
 import CardDisplay from "./CardDisplay";
 
 //For this to work, it will need a state passed down (or created) as the array of User's cards 
@@ -27,10 +27,11 @@ import CardDisplay from "./CardDisplay";
 //   "objectEndDate": 1392,
 //   "tier": "B"
 // }]
+function CardInventory({cards}){
+const UserContext = createContext()
 
-function CardInventory(){
     const [userCards, setUserCards] = useState([])
-    
+    console.log( "inv", cards)
     useEffect(() => {
 
       fetch("http://localhost:3000/players_cards")
