@@ -71,7 +71,7 @@ function App() {
           }
         />
         <Route exact path="/CardInventory" element={<CardInventory />} />
-        <Route exact path="/LearnMore" element={<LearnMore />} />
+        <Route exact path="/LearnMore" element={<LearnMore data={data} />} />
       </Routes>
       {/* </UserContext.Provider> */}
       <div>Money: {moneyState}</div>
