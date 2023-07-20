@@ -1,4 +1,4 @@
-import React,{ useState, useEffect } from "react"
+import React,{ useState, useEffect, createContext } from "react"
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 import NavBar from "./Navbar";
 import GenerateNewCard from "./GenerateNewCard";
@@ -13,52 +13,54 @@ import RandomCards from "./RandomCards";
 
 function App() {
 
+  const UserContext = createContext();
 
-const [data, setData] = useState([]);
+  const [data, setData] = useState([]);
 
 
 
  
-useEffect(() => {
+  useEffect(() => {
 
-  fetchCardPack();
+    fetchCardPack();
   
-}, []);
+  }, []);
 
-const fetchCardPack = () => {
+  const fetchCardPack = () => {
 
-  fetch(`http://localhost:3000/cards`)
-  .then(res => res.json())
-  .then(data => {
-    setData(data)
-  })
-} 
+    fetch(`http://localhost:3000/cards`)
+    .then(res => res.json())
+    .then(data => {
+      setData(data)
+    })
+  } 
 
+        
       
     
   
- 
- 
   
+    
 
- 
   
-//       <Wallet />
+    console.log("app",data);
+  //       <Wallet />
 
-//       <RandomCards data={data} />
+  //       <RandomCards data={data} />
 
 
   return (
     <div>
+      <UserContext.Provider value={data}>
       <NavBar />
       <Routes>
         <Route exact path="/" element={<Home/>}/>
-        <Route exact path="/GenerateNewCard" element={<GenerateNewCard />}/>
-        <Route exact path="/CardInventory" element={<CardInventory />}/>
-        <Route exact path="/LearnMore" element={<LearnMore />}/>
+        <Route exact path="/GenerateNewCard" element={<GenerateNewCard cards={data}/> }/>
+        <Route exact path="/CardInventory" element={<CardInventory cards={data}/>}/>
+        <Route exact path="/LearnMore" element={<LearnMore cards={data}/>}/>
 
       </Routes>
-
+      </UserContext.Provider>
     </div>
   );
 }
