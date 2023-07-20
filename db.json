@@ -1435,7 +1435,7 @@
       "price": 1000
     }
   ],
-  "opponent_cards": [
+  "opponents_cards": [
     {
       "id": 33612,
       "primaryImage": "https://images.metmuseum.org/CRDImages/aa/original/LC-14_25_1750-006.jpg",
