@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import CardDisplay from "./CardDisplay";
 
-//For this to work, it will need a state passed down (or created) as the array of User's cards 
 
 function CardInventory(){
     const [userCards, setUserCards] = useState([])
