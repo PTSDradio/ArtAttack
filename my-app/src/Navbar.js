@@ -5,6 +5,7 @@ import { NavLink } from "react-router-dom";
 
 function NavBar() {
   return (
+
     <div >
       <nav className="navbarStyles">
       <li> <NavLink to="/" > Home </NavLink></li>
@@ -12,6 +13,7 @@ function NavBar() {
       <li><NavLink to="/LearnMore" > Learn More </NavLink></li>
       <li><NavLink to="/CardInventory" > Card Inventory </NavLink></li>
       </nav>
+
     </div>
   );
 }
