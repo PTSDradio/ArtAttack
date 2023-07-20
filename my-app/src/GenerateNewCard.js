@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from "react";
 import RandomCards from "./RandomCards";
 import CardDisplay from "./CardDisplay";
@@ -40,6 +41,7 @@ function GenerateNewCard(){
     const randomCards = cardPack.map((data) => (
         <CardDisplay card={data} key={data.id} />
       ))
+
 
 
     return (
