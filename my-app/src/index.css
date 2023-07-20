@@ -113,7 +113,18 @@ code {
   border: 0;
   transition: box-shadow .2s;
   margin-top: 30px;
-  height: 100%;
-  max-height: 70px;
 }
 
+.wallet-container {
+  position: relative;
+  display: relative;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 300px;
+  height: 250px;
+  margin: 20px;
+  margin-bottom: 20px;
+  box-shadow: 2px 3px 20px black, 0 0 125px #8f5922 inset;
+  background: #fffef0;
+}

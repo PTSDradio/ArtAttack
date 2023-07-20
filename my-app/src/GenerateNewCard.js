@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from "react";
-import RandomCards from "./RandomCards";
 import CardDisplay from "./CardDisplay";
+import Wallet from "./Wallet";
 
 function GenerateNewCard(){
     const [cardPack, setCardPack] = useState([]);
@@ -53,6 +53,7 @@ function GenerateNewCard(){
 
     return (
         <div className="flex-container">
+          <Wallet />
             <button className="generic-button" onClick={generateRandomCards}> Generate Random Cards</button>
             {randomCards}
         </div>
