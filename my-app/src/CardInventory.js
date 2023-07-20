@@ -10,17 +10,10 @@ function CardInventory() {
       .then(setUserCards);
   }, []);
 
-  const sellCard = (e) => {
-    console.log(e.target);
-  };
 
   const userCardInventory = userCards.map((card) => (
     <div key={card.id} className="display-container">
       <CardDisplay card={card} />
-      <button className="generic-button" onClick={sellCard}>
-        {" "}
-        Sell Card
-      </button>
     </div>
   ));
 

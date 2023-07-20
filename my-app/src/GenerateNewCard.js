@@ -76,12 +76,13 @@ function GenerateNewCard({ moneyState, setMoneyState }) {
 
   return (
     <div className="flex-container">
-      <h1> Generate New Card </h1>
       <button className="generic-button" onClick={handleBuyPull}>
         {" "}
         Random Cards
       </button>
+      <div className="inventory-flex-container">
       {randomCards}
+      </div>
     </div>
   );
 }

@@ -20,23 +20,28 @@ function Battle({ moneyState, setMoneyState }) {
       });
   }, []);
 
+  const onClick = (card) => {
+    console.log(card.id);
+  }
+
+
   const beginBattle = () => {
     const opponentMap = opponentCards.map((card) => {
-      return <CardDisplay key={card.id} array={card} />;
+      return <CardDisplay key={card.id} card={card} onClick={onClick}/>;
     });
     const playerMap = playerCards.map((card) => {
-      return <CardDisplay key={card.id} array={card} />;
+      return <CardDisplay key={card.id} card={card} onClick={onClick}/>;
     });
     const playerDivs = (
       <div>
-        <div>
           <button className="generic-button" onClick={runBattle}>
-            {" "}
+            
             Fight!{" "}
           </button>
-          <div>{opponentMap}</div>
-        </div>
-        <div>{playerMap}</div>
+          <br/>
+          <div className="opponent">{opponentMap}</div>
+        <br/>
+        <div className="player">{playerMap}</div>
       </div>
     );
     setBattle(playerDivs);

@@ -30,7 +30,7 @@ function LearnMore(){
 
 
     return (
-        <div className="flex-container">
+        <div className="inventory-flex-container">
             {learnMoreCards}
         </div>
     )
