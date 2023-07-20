@@ -1,43 +1,54 @@
-import React, {useState, useEffect}from "react";
+
+import React, { useState, useEffect } from "react";
+import RandomCards from "./RandomCards";
+import CardDisplay from "./CardDisplay";
 
 function GenerateNewCard(){
+    const [cardPack, setCardPack] = useState([]);
+
+    useEffect(() => {
+      generateRandomCards();
+    }, []);
   
+    const generateRandomCards = () => {
+      let generatedCards = [];
+      for (let i = 0; i < 3; i++) {
+        const randomIndex = Math.floor(Math.random() * data.length);
+        const randomObject = data[randomIndex];
+        if (randomObject && randomObject.id) {
+          generatedCards = [randomObject, ...generatedCards];
+        }
+      }
+      setCardPack(generatedCards);
+    };
+  
+    const [data, setData] = useState([]);
 
-        console.log("sup");
-    // let card = () => {
-    //     fetch(`https://collectionapi.metmuseum.org/public/collection/v1/objects/${Math.floor(Math.random() * 80000)}`)
-    //     .then((response) => response.json())
-    //     .then((data) => {
-    //       // console.log(randomNumber);
-    //         if (data.isPublicDomain === true && data.primaryImage.includes("http")&&data.message !== "ObjectID not found") {
-    //             // use data
-    //             // console.log(data);
-    //             return (data)
-    //         }
-    //         else {
-    //             card();
-    //         }
-          
-    //     });    }
+    useEffect(() => {
+      fetchCardPack();
+      
+    }, []);
+    
+    const fetchCardPack = () => {
+    
+      fetch(`http://localhost:3000/cards`)
+      .then(res => res.json())
+      .then(data => {
 
-    // const funky = Promise.all([
-    //     fetch(`https://collectionapi.metmuseum.org/public/collection/v1/objects/${Math.floor(Math.random() * 80000)}`),
-    //     fetch(`https://collectionapi.metmuseum.org/public/collection/v1/objects/${Math.floor(Math.random() * 80000)}`),
-    //     fetch(`https://collectionapi.metmuseum.org/public/collection/v1/objects/${Math.floor(Math.random() * 80000)}`)
-    // ]).then(function(responses){
-    //     return Promise.all(responses.map(function(response){
-    //         return response.json();
-    //     }));
-    // }).then(function(data){
+      setData(data);
+      })
+    } 
+    const randomCards = cardPack.map((data) => (
+        <CardDisplay card={data} key={data.id} />
+      ))
 
-    //     console.log(data);
-    // }).catch(function(error){
-    //     console.log(error);
-    // });
+
 
     return (
         <div className="flex-container">
             <h1> Generate New Card </h1>
+            <button className="generic-button" onClick={generateRandomCards}> Random Cards</button>
+            {randomCards}
         </div>
     )
 }

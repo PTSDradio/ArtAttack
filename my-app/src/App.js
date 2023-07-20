@@ -4,11 +4,11 @@ import NavBar from "./Navbar";
 import GenerateNewCard from "./GenerateNewCard";
 import CardInventory from "./CardInventory";
 import LearnMore from "./LearnMore";
-import Home from "./Home";
 import Wallet from "./Wallet";
 import BuySellCards from "./BuySellCards";
 
 import RandomCards from "./RandomCards";
+import Battle from "./Battle";
 
 
 function App() {
@@ -35,13 +35,6 @@ function App() {
     })
   } 
 
-        
-      
-    
-  
-  
-    
-
   
     console.log("app",data);
   //       <Wallet />
@@ -54,10 +47,12 @@ function App() {
       <UserContext.Provider value={data}>
       <NavBar />
       <Routes>
-        <Route exact path="/" element={<Home/>}/>
-        <Route exact path="/GenerateNewCard" element={<GenerateNewCard cards={data}/> }/>
-        <Route exact path="/CardInventory" element={<CardInventory cards={data}/>}/>
-        <Route exact path="/LearnMore" element={<LearnMore cards={data}/>}/>
+
+        <Route exact path="/" element={<Battle/>}/>
+        <Route exact path="/GenerateNewCard" element={<GenerateNewCard />}/>
+        <Route exact path="/CardInventory" element={<CardInventory />}/>
+        <Route exact path="/LearnMore" element={<LearnMore />}/>
+      </Routes>
 
       </Routes>
       </UserContext.Provider>
