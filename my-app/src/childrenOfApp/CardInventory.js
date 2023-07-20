@@ -1,5 +1,5 @@
 import React, { useState, useEffect, createContext } from "react";
-import CardDisplay from "./CardDisplay";
+import CardDisplay from "../subComponents/CardDisplay";
 
 //For this to work, it will need a state passed down (or created) as the array of User's cards 
 

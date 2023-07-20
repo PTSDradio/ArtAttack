@@ -1,5 +1,5 @@
 import React from "react";
-import CardDisplay from "./CardDisplay";
+import CardDisplay from "../subComponents/CardDisplay";
 
 function LearnMore(){
     const card = (
