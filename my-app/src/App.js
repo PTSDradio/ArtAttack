@@ -1,65 +1,61 @@
-import React,{ useState, useEffect } from "react"
+import React,{ useState, useEffect, createContext } from "react"
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 import NavBar from "./Navbar";
 import GenerateNewCard from "./GenerateNewCard";
 import CardInventory from "./CardInventory";
 import LearnMore from "./LearnMore";
-import Home from "./Home";
 import Wallet from "./Wallet";
 import BuySellCards from "./BuySellCards";
 
 import RandomCards from "./RandomCards";
+import Battle from "./Battle";
 
 
 function App() {
 
-const [data, setData] = useState([]);
+  const UserContext = createContext();
+
+  const [data, setData] = useState([]);
+
 
 
  
-useEffect(() => {
-  fetchCardPack();
+  useEffect(() => {
+
+    fetchCardPack();
   
-}, []);
+  }, []);
 
-const fetchCardPack = () => {
+  const fetchCardPack = () => {
 
-  fetch(`http://localhost:3000/cards`)
-  .then(res => res.json())
-  .then(data => {
+    fetch(`http://localhost:3000/cards`)
+    .then(res => res.json())
+    .then(data => {
+      setData(data)
+    })
+  } 
 
-    
-    setData(data);
-
-
-
-  })
-} 
-
-      
-    
   
- 
- 
-  
+    console.log("app",data);
+  //       <Wallet />
 
- 
-  
-//       <Wallet />
-
-//       <RandomCards data={data} />
+  //       <RandomCards data={data} />
 
 
   return (
     <div>
+      <UserContext.Provider value={data}>
       <NavBar />
       <Routes>
-        <Route exact path="/" element={<Home/>}/>
+
+        <Route exact path="/" element={<Battle/>}/>
         <Route exact path="/GenerateNewCard" element={<GenerateNewCard />}/>
         <Route exact path="/CardInventory" element={<CardInventory />}/>
         <Route exact path="/LearnMore" element={<LearnMore />}/>
       </Routes>
 
+      </Routes>
+      </UserContext.Provider>
     </div>
   );
 }

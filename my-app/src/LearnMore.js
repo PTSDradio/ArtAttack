@@ -1,5 +1,5 @@
 import React from "react";
-import UserCard from "./UserCard";
+import CardDisplay from "./CardDisplay";
 
 function LearnMore(){
     const card = (
@@ -19,11 +19,10 @@ function LearnMore(){
     const additionalInfo = (
         <div className="flex-container">
         <div className="card-container">
-            <h2>Artist: {card.artistDisplayName}</h2>
-            <h3>Date of Origin: {card.objectEndDate} </h3>
-            <h3>Culture of origin: {card.culture}</h3>
-            <h3>Time period: {card.period}</h3>
-            <h3>Medium: {card.medium}</h3>
+            <h2>Artist: <br/>{card.artistDisplayName}</h2>
+            <h3>Culture of origin: <br/>{card.culture}</h3>
+            <h3>Time period: <br/>{card.period}</h3>
+            <h3>Medium: <br/>{card.medium}</h3>
             <a href={card.objectURL}> Link for more info </a>
         </div>
         </div>
@@ -32,7 +31,7 @@ function LearnMore(){
     //This will probably need a State passed down to it, of the currently selected card
     const selectedCard = (
         <div className="flex-container"> 
-            <UserCard /> 
+            <CardDisplay /> 
             {additionalInfo}
         </div>
     ) 

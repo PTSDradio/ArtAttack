@@ -104,6 +104,7 @@ function Battle() {
       {battleState}
     </div>
   );
+
 }
 
 export default Battle;
