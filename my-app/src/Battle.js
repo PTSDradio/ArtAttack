@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import CPUcard from "./CPUcard";
+import CPUcard from "./depracated/CPUcard";
 import CardDisplay from "./CardDisplay";
 
 function Battle() {
