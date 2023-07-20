@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import CardDisplay from "./CardDisplay";
 
-function Battle() {
+function Battle({}) {
   const [opponentCards, setOpponentCards] = useState([]);
   const [playerCards, setPlayerCards] = useState([]);
   const [battleState, setBattle] = useState([]);
@@ -13,10 +13,19 @@ function Battle() {
         setPlayerCards(data);
       });
 
-    fetch("http://localhost:3000/opponents_cards")
+    fetch("http://localhost:3000/cards")
       .then((res) => res.json())
       .then((data) => {
-        setOpponentCards(data);
+        let generatedCards = [];
+            for (let i = 0; i < 8; i++) {
+              const randomIndex = Math.floor(Math.random() * data.length);
+              const randomObject = data[randomIndex];
+              if (randomObject && randomObject.id) {
+                generatedCards = [randomObject, ...generatedCards];
+              }
+            }
+        setOpponentCards(generatedCards);
+            console.log("opponent", generatedCards);
       });
   }, []);
 
@@ -36,8 +45,10 @@ function Battle() {
             {" "}
             Fight!{" "}
           </button>
+          <div>Opponent Cards</div>
           <div>{opponentMap}</div>
         </div>
+        <div>Your Cards</div>
         <div>{playerMap}</div>
       </div>
     );

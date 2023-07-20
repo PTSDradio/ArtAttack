@@ -7,7 +7,7 @@ function Home(){
     return (
         <div className="home-screen">
             <UserCard />
-            <Battle /> 
+            {/* <Battle />  */}
         </div>
     )
 }

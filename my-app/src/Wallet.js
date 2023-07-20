@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from "react";
 import BuySellCards from "./BuySellCards";
 
-function Wallet() {
-  let startMoney = 100;
-  const [moneyState, setMoneyState] = useState(startMoney);
+function Wallet({ startMoney, moneyState, setMoneyState, }) {
+  
 
   const handleSubmit = (e) => {
     e.preventDefault();
