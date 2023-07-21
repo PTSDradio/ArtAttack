@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import CardDisplay from "./CardDisplay";
 
-function CardInventory() {
+function CardInventory({onClick}) {
   const [userCards, setUserCards] = useState([]);
 
   useEffect(() => {
@@ -9,11 +9,13 @@ function CardInventory() {
       .then((r) => r.json())
       .then(setUserCards);
   }, []);
-
+  const handleclick=(card)=>{
+    // console.log("sup")
+  }
 
   const userCardInventory = userCards.map((card) => (
     <div key={card.id} className="display-container">
-      <CardDisplay card={card} />
+      <CardDisplay card={card} onClick={onClick}/>
     </div>
   ));
 

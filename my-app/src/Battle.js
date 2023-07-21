@@ -5,43 +5,75 @@ function Battle({ moneyState, setMoneyState }) {
   const [opponentCards, setOpponentCards] = useState([]);
   const [playerCards, setPlayerCards] = useState([]);
   const [battleState, setBattle] = useState([]);
-  let battleMoney = 0;
-  useEffect(() => {
-    fetch("http://localhost:3000/players_cards")
-      .then((res) => res.json())
-      .then((data) => {
-        setPlayerCards(data);
-      });
 
-    fetch("http://localhost:3000/opponents_cards")
-      .then((res) => res.json())
-      .then((data) => {
-        setOpponentCards(data);
-      });
+  let battleMoney = 0;
+
+  const fetchPlayerCards = async () => {
+    const response = await fetch("http://localhost:3000/players_cards");
+    const data = await response.json();
+    let generatedCards = [];
+  
+    for (let i = 0; i < 4; i++) {
+      const randomIndex = Math.floor(Math.random() * data.length);
+      const randomObject = data[randomIndex];
+      if (randomObject && randomObject.id) {
+        generatedCards = [randomObject, ...generatedCards];
+      }
+    }
+    
+    setPlayerCards(generatedCards);
+  };
+
+  const fetchOpponentCards = async () => {
+    const response = await fetch("http://localhost:3000/cards");
+    const data = await response.json();
+    let generatedCards = [];
+  
+    for (let i = 0; i < 4; i++) {
+      const randomIndex = Math.floor(Math.random() * data.length);
+      const randomObject = data[randomIndex];
+      if (randomObject && randomObject.id) {
+        generatedCards = [randomObject, ...generatedCards];
+      }
+    }
+    setOpponentCards(generatedCards);
+    // console.log(generatedCards);
+  };
+
+  useEffect(() => {
+    async function fetchData() {
+      await Promise.all([fetchPlayerCards(), fetchOpponentCards()]);
+    }
+    fetchData();
   }, []);
+
+  const handleNewBattle = () => {
+    async function fetchData() {
+      await Promise.all([fetchPlayerCards(), fetchOpponentCards()]);
+    }
+    fetchData();
+  };
 
   const onClick = (card) => {
     console.log(card.id);
-  }
-
+  };
 
   const beginBattle = () => {
     const opponentMap = opponentCards.map((card) => {
-      return <CardDisplay key={card.id} card={card} onClick={onClick}/>;
+      return <CardDisplay key={card.id} card={card} onClick={onClick} />;
     });
     const playerMap = playerCards.map((card) => {
-      return <CardDisplay key={card.id} card={card} onClick={onClick}/>;
+      return <CardDisplay key={card.id} card={card} onClick={onClick} />;
     });
     const playerDivs = (
-      <div>
-          <button className="generic-button" onClick={runBattle}>
-            
-            Fight!{" "}
-          </button>
-          <br/>
-          <div className="opponent">{opponentMap}</div>
-        <br/>
-        <div className="player">{playerMap}</div>
+      <div className="battle" >
+        <button className="generic-button" onClick={runBattle}>
+          Fight!{" "}
+        </button>
+        <br />
+        <div className="flex-container-enemy">{opponentMap}</div>
+        <br />
+        <div className="flex-container">{playerMap}</div>
       </div>
     );
     setBattle(playerDivs);
@@ -52,8 +84,11 @@ function Battle({ moneyState, setMoneyState }) {
       alert("You have no cards! Go buy some more cards!");
       setMoneyState(moneyState + battleMoney);
     } else if (opponentCards.length === 0) {
-      alert("The opponenent has been destroyed! Challenge a new one!");
+      alert(
+        "The opponenent has been destroyed! Click begin battle to challenge a new one!"
+      );
       setMoneyState(moneyState + battleMoney);
+      handleNewBattle();
     } else {
       const currentPlayerCard =
         playerCards[Math.floor(Math.random() * playerCards.length)];
@@ -65,7 +100,7 @@ function Battle({ moneyState, setMoneyState }) {
         alert(`You  won! Opponent left $${currentOpponentCard.price}!`);
         battleMoney = currentOpponentCard.price + battleMoney;
         // money = money + currentOpponentCard.price;
-        console.log("money:", battleMoney);
+        // console.log("money:", battleMoney);
         setOpponentCards(
           opponentCards.splice(opponentCards.indexOf(currentOpponentCard), 1)
         );
@@ -85,7 +120,7 @@ function Battle({ moneyState, setMoneyState }) {
           alert(`You barely won! Opponent left $${currentOpponentCard.price}!`);
           battleMoney = currentOpponentCard.price + battleMoney;
           // money = money + currentOpponentCard.price;
-          console.log("money:", battleMoney);
+          // console.log("money:", battleMoney);
           setOpponentCards(
             opponentCards.splice(opponentCards.indexOf(currentOpponentCard), 1)
           );

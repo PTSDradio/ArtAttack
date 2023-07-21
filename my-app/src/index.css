@@ -10,7 +10,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: url("https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iKLZ4VPGMJx0/v1/-1x-1.jpg");
-  background-repeat: repeat-y;
+  background-size: cover;
   background-position: center top;
 }
 
@@ -57,32 +57,42 @@ code {
 
 .flex-container {
   display: flex;
-  height: 40rem;
+  height: auto;
   justify-content: center;
 }
 
 .inventory-flex-container {
   display: flex;
-  height: 40rem;
+  height: auto;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.flex-container img {
-  max-width: 80%;
-  max-height: 100%;
+.battle .flex-container .card-container:hover {
+  transform: none;
+}
+
+.card-container img {
+  max-width: 50%;
+  max-height: 50%;
+  transition: transform 0.3s;
+}
+.card-container:hover {
+  transform: scale(1.5);
+  z-index: 1;
 }
 
 /* Refactor this into flex-container */
 .card-container {
+  border-radius: 10px;
   position: relative;
   display: relative;
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 300px;
-  height: 100%;
-  margin: 20px;
+  width: 20em;
+  height: auto;
+  margin: 10px;
   margin-bottom: 20px;
   box-shadow: 2px 3px 20px black, 0 0 125px #8f5922 inset;
   background: #fffef0;

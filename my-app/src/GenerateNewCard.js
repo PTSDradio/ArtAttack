@@ -10,7 +10,7 @@ function GenerateNewCard({ moneyState, setMoneyState }) {
 
   const handleBuyPull = () => {
     if (moneyState >= 20) {
-      setMoneyState((moneyState) => moneyState - 20);
+      setMoneyState((moneyState) => moneyState - 500);
       generateRandomCards();
     } else {
       alert("You don't have enough money");
@@ -27,7 +27,7 @@ function GenerateNewCard({ moneyState, setMoneyState }) {
       }
     }
     setCardPack(generatedCards);
-    console.log(cardPack);
+    // console.log(cardPack);
   };
   //fetch from all cards and post to players cards
   const handleClick = (card) => {
@@ -78,7 +78,7 @@ function GenerateNewCard({ moneyState, setMoneyState }) {
     <div className="flex-container">
       <button className="generic-button" onClick={handleBuyPull}>
         {" "}
-        Random Cards
+        Open Card Pack $1000
       </button>
       <div className="inventory-flex-container">
       {randomCards}
