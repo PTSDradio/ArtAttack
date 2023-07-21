@@ -1821,6 +1821,45 @@
       "tier": 6,
       "title": "Dish with Antiquities",
       "id": 112345657891432
+    },
+    {
+      "artistDisplayBio": "unknown",
+      "artistDisplayName": "unknown",
+      "culture": "Indonesia (Java)",
+      "medium": "Gold",
+      "objectEndDate": 925,
+      "period": "late Central Javanese period",
+      "price": 800,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/1998_544_79.jpg",
+      "tier": 2,
+      "title": "Rod Finial Clip with Foliate Design Creating Demon Mask",
+      "id": 112345657891433
+    },
+    {
+      "artistDisplayBio": "1726–1810",
+      "artistDisplayName": "Elias Pelletreau",
+      "culture": "American",
+      "medium": "Silver",
+      "objectEndDate": 1776,
+      "period": "unknown",
+      "price": 400,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DP162489.jpg",
+      "tier": 6,
+      "title": "Box",
+      "id": 112345657891434
+    },
+    {
+      "artistDisplayBio": "unknown",
+      "artistDisplayName": "unknown",
+      "culture": "West Slavic",
+      "medium": "Iron",
+      "objectEndDate": 1100,
+      "period": "unknown",
+      "price": 700,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/aa/original/LC-42_50_400-003.jpg",
+      "tier": 3,
+      "title": "Stirrup",
+      "id": 112345657891435
     }
   ],
   "opponents_cards": [

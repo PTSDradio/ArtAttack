@@ -22,7 +22,7 @@ function NavBar({ money }) {
         <li>
           <NavLink to="/CardInventory"> Card Inventory </NavLink>
         </li>
-        <li id="money">Doubloons: {money}</li>
+        <li id="money">Doubloons:  {money}</li>
       </nav>
     </div>
   );
