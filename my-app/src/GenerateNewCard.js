@@ -80,9 +80,7 @@ function GenerateNewCard({ moneyState, setMoneyState }) {
         {" "}
         Open Card Pack $1000
       </button>
-      <div className="inventory-flex-container">
-      {randomCards}
-      </div>
+      <div className="inventory-flex-container">{randomCards}</div>
     </div>
   );
 }

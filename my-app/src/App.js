@@ -5,11 +5,9 @@ import GenerateNewCard from "./GenerateNewCard";
 import CardInventory from "./CardInventory";
 import LearnMore from "./LearnMore";
 import Wallet from "./Wallet";
-import Gen from "./BuySellCards";
+
 import Battle from "./Battle";
 import CardDisplay from "./CardDisplay";
-
-import RandomCards from "./RandomCards";
 
 function App() {
   const [data, setData] = useState([]);
@@ -18,19 +16,15 @@ function App() {
 
   const [learnArray, setLearnArray] = useState([]);
 
-  const UserContext = createContext();
-
-  // const [data, setData] = useState([]);
-
   const handleLearnMore = (card) => {
     setLearnArray([card]);
-  }
+  };
 
   useEffect(() => {
     fetchCardPack();
     fetch("http://localhost:3000/players_cards")
-    .then((res) => res.json())
-    .then(setLearnArray);
+      .then((res) => res.json())
+      .then(setLearnArray);
   }, []);
 
   const fetchCardPack = () => {
@@ -44,8 +38,8 @@ function App() {
   return (
     <div>
       {/* <UserContext.Provider value={data}> */}
-      <NavBar />
-      
+      <NavBar money={moneyState} />
+
       <Routes>
         <Route
           exact
@@ -65,8 +59,22 @@ function App() {
             />
           }
         />
-        <Route exact path="/CardInventory" element={<CardInventory onClick={handleLearnMore}/>} />
-        <Route exact path="/LearnMore" element={<LearnMore data={data} learnArray={learnArray} setLearnArray={setLearnArray}/>} />
+        <Route
+          exact
+          path="/CardInventory"
+          element={<CardInventory onClick={handleLearnMore} />}
+        />
+        <Route
+          exact
+          path="/LearnMore"
+          element={
+            <LearnMore
+              data={data}
+              learnArray={learnArray}
+              setLearnArray={setLearnArray}
+            />
+          }
+        />
       </Routes>
       {/* </UserContext.Provider> */}
       <div>Money: {moneyState}</div>

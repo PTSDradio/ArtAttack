@@ -12,7 +12,7 @@ function Battle({ moneyState, setMoneyState }) {
     const response = await fetch("http://localhost:3000/players_cards");
     const data = await response.json();
     let generatedCards = [];
-  
+
     for (let i = 0; i < 4; i++) {
       const randomIndex = Math.floor(Math.random() * data.length);
       const randomObject = data[randomIndex];
@@ -20,7 +20,7 @@ function Battle({ moneyState, setMoneyState }) {
         generatedCards = [randomObject, ...generatedCards];
       }
     }
-    
+
     setPlayerCards(generatedCards);
   };
 
@@ -28,7 +28,7 @@ function Battle({ moneyState, setMoneyState }) {
     const response = await fetch("http://localhost:3000/cards");
     const data = await response.json();
     let generatedCards = [];
-  
+
     for (let i = 0; i < 4; i++) {
       const randomIndex = Math.floor(Math.random() * data.length);
       const randomObject = data[randomIndex];
@@ -66,12 +66,12 @@ function Battle({ moneyState, setMoneyState }) {
       return <CardDisplay key={card.id} card={card} onClick={onClick} />;
     });
     const playerDivs = (
-      <div className="battle" >
+      <div className="battle">
         <button className="generic-button" onClick={runBattle}>
           Fight!{" "}
         </button>
         <br />
-        <div className="flex-container-enemy">{opponentMap}</div>
+        <div className="flex-container enemy">{opponentMap}</div>
         <br />
         <div className="flex-container">{playerMap}</div>
       </div>
@@ -83,6 +83,7 @@ function Battle({ moneyState, setMoneyState }) {
     if (playerCards.length === 0) {
       alert("You have no cards! Go buy some more cards!");
       setMoneyState(moneyState + battleMoney);
+      handleNewBattle();
     } else if (opponentCards.length === 0) {
       alert(
         "The opponenent has been destroyed! Click begin battle to challenge a new one!"

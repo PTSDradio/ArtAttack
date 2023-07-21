@@ -1,38 +1,44 @@
 import React, { useState, useEffect } from "react";
-import CardDisplay from "./CardDisplay";
-import LearnMoreDisplay from "./LearnMoreDisplay";
 
-function LearnMore({learnArray, setLearnArray,}) {
+function LearnMore({ learnArray, setLearnArray }) {
   // const [userCards, setUserCards] = useState([]);
   const [infoView, setInfoView] = useState(true);
-  useEffect(() => {
-    // fetch("http://localhost:3000/players_cards")
-    //   .then((res) => res.json())
-    //   .then(setLearnArray);
-  }, []);
 
- const onClick = () => {
+  const onClick = () => {
     setInfoView(!infoView);
   };
   const cardMap = learnArray.map((card) => {
-
     return (
-      <div key={card.id} className="flex-container">
+      <div key={card.id} className="flex-container learn-more-display">
         <div className="card-container" onClick={onClick}>
           <h2>{card.title}</h2>
-          {infoView ? (<h3>Tier: {card.tier} </h3>) : (<h3>Price: {card.price} </h3>)}
+          {infoView ? (
+            <h3>Tier: {card.tier} </h3>
+          ) : (
+            <h3>Price: {card.price} </h3>
+          )}
           <img src={card.primaryImage} alt={card.title}></img>
-          {infoView ? (<p>Artist: {card.artistDisplayName}</p>) :
-          (<p>Period: {card.period}</p>)}
-          {infoView ? (<p>Artist Bio: {card.artistDisplayBio} </p>) : (<p>Culture: {card.culture} </p>)}
-          {infoView ? (<p>Date: {card.objectEndDate}</p>) : (<p>Medium: {card.medium} </p>)}
+          {infoView ? (
+            <p>Artist: {card.artistDisplayName}</p>
+          ) : (
+            <p>Period: {card.period}</p>
+          )}
+          {infoView ? (
+            <p>Artist Bio: {card.artistDisplayBio} </p>
+          ) : (
+            <p>Culture: {card.culture} </p>
+          )}
+          {infoView ? (
+            <p>Date: {card.objectEndDate}</p>
+          ) : (
+            <p>Medium: {card.medium} </p>
+          )}
         </div>
       </div>
     );
   });
 
- 
-    // console.log(userCards)
+  // console.log(userCards)
 
   // const learnMoreCards = (
   //     userCards.map((card) => (
