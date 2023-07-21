@@ -14,7 +14,7 @@ function NavBar({ money }) {
           <NavLink to="/Battle"> Battle </NavLink>
         </li>
         <li>
-          <NavLink to="/GenerateNewCard"> Generate New Card </NavLink>
+          <NavLink to="/PullCards"> Pull Cards </NavLink>
         </li>
         <li>
           <NavLink to="/LearnMore"> Learn More </NavLink>
@@ -22,7 +22,7 @@ function NavBar({ money }) {
         <li>
           <NavLink to="/CardInventory"> Card Inventory </NavLink>
         </li>
-        <li id="money">Dabloons:{money}</li>
+        <li id="money">Doubloons: {money}</li>
       </nav>
     </div>
   );

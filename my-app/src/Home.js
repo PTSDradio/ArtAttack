@@ -16,7 +16,9 @@ function Home({ onClick }) {
     </div>
   ));
 
-  return <div className="inventory-flex-container">{userCardInventory}</div>;
+  return (
+    <div className="flex-container">{userCardInventory}</div>
+  );
 }
 
 export default Home;

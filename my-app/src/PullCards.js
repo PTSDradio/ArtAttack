@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import CardDisplay from "./CardDisplay";
 
-function GenerateNewCard({ moneyState, setMoneyState }) {
+function PullCards({ moneyState, setMoneyState }) {
   const [cardPack, setCardPack] = useState([]);
   const [data, setData] = useState([]);
   useEffect(() => {
@@ -10,7 +10,7 @@ function GenerateNewCard({ moneyState, setMoneyState }) {
 
   const handleBuyPull = () => {
     if (moneyState >= 20) {
-      setMoneyState((moneyState) => moneyState - 500);
+      setMoneyState((moneyState) => moneyState - 1000);
       generateRandomCards();
     } else {
       alert("You don't have enough money");
@@ -80,9 +80,9 @@ function GenerateNewCard({ moneyState, setMoneyState }) {
         {" "}
         Open Card Pack $1000
       </button>
-      <div className="inventory-flex-container">{randomCards}</div>
+      <div className="flex-container">{randomCards}</div>
     </div>
   );
 }
 
-export default GenerateNewCard;
+export default PullCards;

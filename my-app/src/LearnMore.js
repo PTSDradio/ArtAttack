@@ -9,7 +9,7 @@ function LearnMore({ learnArray, setLearnArray }) {
   };
   const cardMap = learnArray.map((card) => {
     return (
-      <div key={card.id} className="flex-container learn-more-display">
+      <div key={card.id} className="flex-container learn-more">
         <div className="card-container" onClick={onClick}>
           <h2>{card.title}</h2>
           {infoView ? (
@@ -17,7 +17,9 @@ function LearnMore({ learnArray, setLearnArray }) {
           ) : (
             <h3>Price: {card.price} </h3>
           )}
-          <img src={card.primaryImage} alt={card.title}></img>
+          <div className="card-image-container">
+            <img src={card.primaryImage} alt={card.title}></img>
+          </div>
           {infoView ? (
             <p>Artist: {card.artistDisplayName}</p>
           ) : (
@@ -38,12 +40,7 @@ function LearnMore({ learnArray, setLearnArray }) {
     );
   });
 
-
-  return (
-    <div className="flex-container learn-more-display">
-      {cardMap}
-    </div>
-  );
+  return <div className="flex-container">{cardMap}</div>;
 }
 
 export default LearnMore;

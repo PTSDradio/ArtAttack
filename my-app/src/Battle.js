@@ -69,11 +69,9 @@ function Battle({ moneyState, setMoneyState }) {
     const playerDivs = (
       <div className="battle">
         <button className="generic-button" onClick={runBattle}>
-          Eat My Shorts!{" "}
+          Fight!{" "}
         </button>
-        <br />
         <div className="flex-container enemy">{opponentMap}</div>
-        <br />
         <div className="flex-container">{playerMap}</div>
       </div>
     );

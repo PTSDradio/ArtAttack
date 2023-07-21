@@ -5,9 +5,7 @@ function CardDisplay({ card, onClick }) {
 
   return (
     <div>
-      <br />
-      <br />
-      <br />
+    
       <div
         className="card-container"
         onClick={(e) => {
@@ -21,7 +19,9 @@ function CardDisplay({ card, onClick }) {
             : card.title}
         </h2>
         <h3>Tier: {card.tier} </h3>
+        <div className="card-image-container" >
         <img src={card.primaryImage} alt={card.title}></img>
+        </div>
       </div>
     </div>
   );

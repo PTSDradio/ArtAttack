@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Route, Routes } from "react-router-dom";
 import NavBar from "./Navbar";
-import GenerateNewCard from "./GenerateNewCard";
+import PullCards from "./PullCards";
 import CardInventory from "./CardInventory";
 import LearnMore from "./LearnMore";
 import Home from "./Home";
@@ -39,19 +39,19 @@ function App() {
       <NavBar money={moneyState} />
 
       <Routes>
-        <Route exact path="/" element={<Home onClick={handleLearnMore}/>} />
+        <Route exact path="/" element={<Home onClick={handleLearnMore} />} />
         <Route
           exact
-          path="/"
+          path="/Battle"
           element={
             <Battle moneyState={moneyState} setMoneyState={setMoneyState} />
           }
         />
         <Route
           exact
-          path="/GenerateNewCard"
+          path="/PullCards"
           element={
-            <GenerateNewCard
+            <PullCards
               data={data}
               moneyState={moneyState}
               setMoneyState={setMoneyState}
