@@ -10,13 +10,16 @@ function LearnMore(){
       .then((r) => r.json())
       .then(setUserCards)}, []) 
 
+      const onClick = (card) => {
+              console.log(card)
+            }
       console.log(userCards)
 
     const learnMoreCards = (
         userCards.map((card) => (
             <div>
                 <div className="display-container">
-                    <CardDisplay card={card}/> 
+                    <CardDisplay card={card} onClick={onClick}/> 
                 </div>
                     <div className="flex-container">
                         <LearnMoreDisplay card={card}/>
@@ -27,7 +30,7 @@ function LearnMore(){
 
 
     return (
-        <div className="flex-container">
+        <div className="inventory-flex-container">
             {learnMoreCards}
         </div>
     )

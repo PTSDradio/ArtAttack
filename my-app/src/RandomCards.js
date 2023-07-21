@@ -7,9 +7,9 @@ function RandomCards({ data }) {
   useEffect(() => {
     generateRandomCards();
   }, []);
-
+let generatedCards = [];
   const generateRandomCards = () => {
-    let generatedCards = [];
+    // check for old ids
     for (let i = 0; i < 3; i++) {
       const randomIndex = Math.floor(Math.random() * data.length);
       const randomObject = data[randomIndex];
