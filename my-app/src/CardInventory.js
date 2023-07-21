@@ -9,9 +9,6 @@ function CardInventory({onClick}) {
       .then((r) => r.json())
       .then(setUserCards);
   }, []);
-  const handleclick=(card)=>{
-    // console.log("sup")
-  }
 
   const userCardInventory = userCards.map((card) => (
     <div key={card.id} className="display-container">

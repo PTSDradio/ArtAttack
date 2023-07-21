@@ -59,7 +59,7 @@ function Battle({ moneyState, setMoneyState }) {
   };
 
   const beginBattle = () => {
-    handleNewBattle()
+    handleNewBattle();
     const opponentMap = opponentCards.map((card) => {
       return <CardDisplay key={card.id} card={card} onClick={onClick} />;
     });

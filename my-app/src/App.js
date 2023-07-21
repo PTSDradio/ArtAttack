@@ -1,13 +1,11 @@
-import React, { useState, useEffect, createContext } from "react";
-import { Route, Routes, BrowserRouter } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { Route, Routes } from "react-router-dom";
 import NavBar from "./Navbar";
 import GenerateNewCard from "./GenerateNewCard";
 import CardInventory from "./CardInventory";
 import LearnMore from "./LearnMore";
-import Wallet from "./Wallet";
-
+import Home from "./Home";
 import Battle from "./Battle";
-import CardDisplay from "./CardDisplay";
 
 function App() {
   const [data, setData] = useState([]);
@@ -41,6 +39,7 @@ function App() {
       <NavBar money={moneyState} />
 
       <Routes>
+        <Route exact path="/" element={<Home onClick={handleLearnMore}/>} />
         <Route
           exact
           path="/"

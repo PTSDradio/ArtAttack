@@ -38,25 +38,9 @@ function LearnMore({ learnArray, setLearnArray }) {
     );
   });
 
-  // console.log(userCards)
-
-  // const learnMoreCards = (
-  //     userCards.map((card) => (
-  //         <div>
-  //             {cardMap}
-  //             {/* <div className="display-container"> */}
-  //                 {/* <CardDisplay card={card} key={card.id} onClick={onClick}/>  */}
-  //             {/* </div> */}
-  //                 {/* <div className="flex-container">
-  //                     <LearnMoreDisplay card={card} key={card.id}/>
-  //             </div> */}
-  //          </div>
-  //         )
-  //     ))
 
   return (
-    <div className="inventory-flex-container">
-      {/* {learnMoreCards} */}
+    <div className="flex-container learn-more-display">
       {cardMap}
     </div>
   );
