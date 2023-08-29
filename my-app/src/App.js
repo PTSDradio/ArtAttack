@@ -16,6 +16,7 @@ function App() {
 
   const [moneyState, setMoneyState] = useState(10000);
 
+  const [learnArray, setLearnArray] = useState([]);
   const UserContext = createContext();
   const [money, setMoney] = useState(100);
 
@@ -38,6 +39,9 @@ function App() {
 
   useEffect(() => {
     fetchCardPack();
+    fetch("http://localhost:3000/players_cards")
+    .then((res) => res.json())
+    .then(setLearnArray);
   }, []);
 
   const fetchCardPack = () => {
@@ -51,7 +55,7 @@ function App() {
   return (
     <div>
       {/* <UserContext.Provider value={data}> */}
-      <NavBar />
+      <NavBar money={moneyState} />
       <Routes>
         <Route
           exact
@@ -72,7 +76,7 @@ function App() {
           }
         />
         <Route exact path="/CardInventory" element={<CardInventory />} />
-        <Route exact path="/LearnMore" element={<LearnMore data={data} />} />
+        <Route exact path="/LearnMore" element={<LearnMore data={data} setLearnArray={setLearnArray} learnArray={learnArray}/>} />
       </Routes>
       {/* </UserContext.Provider> */}
       <div>Money: {moneyState}</div>

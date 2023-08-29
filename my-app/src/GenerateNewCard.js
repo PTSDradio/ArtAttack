@@ -4,6 +4,7 @@ import CardDisplay from "./CardDisplay";
 function GenerateNewCard({ moneyState, setMoneyState }) {
   const [cardPack, setCardPack] = useState([]);
   const [data, setData] = useState([]);
+  
   useEffect(() => {
     fetchCardPack();
   }, []);

@@ -1,19 +1,12 @@
-<<<<<<< HEAD:my-app/src/childrenOfApp/LearnMore.js
-import React from "react";
-import CardDisplay from "../subComponents/CardDisplay";
-=======
 import React, { useState, useEffect } from "react";
 import CardDisplay from "./CardDisplay";
 import LearnMoreDisplay from "./LearnMoreDisplay";
->>>>>>> 03bbe532831704f6e416f8364eefd250d5550066:my-app/src/LearnMore.js
 
-function LearnMore(){
+function LearnMore({learnArray, setLearnArray}){
     const [userCards, setUserCards] = useState([])
     
     useEffect(() => {
-      fetch('http://localhost:3000/players_cards')
-      .then((r) => r.json())
-      .then(setUserCards)}, []) 
+  }, []) 
 
       const onClick = (card) => {
               console.log(card)

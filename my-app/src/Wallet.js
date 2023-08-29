@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import BuySellCards from "../BuySellCards";
+import BuySellCards from "./BuySellCards";
 
 function Wallet() {
   let startMoney = 100;

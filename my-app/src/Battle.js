@@ -35,13 +35,14 @@ function Battle({ moneyState, setMoneyState }) {
     const playerDivs = (
       <div>
           <button className="generic-button" onClick={runBattle}>
-            
             Fight!{" "}
           </button>
           <br/>
-          <div className="opponent">{opponentMap}</div>
-        <br/>
-        <div className="player">{playerMap}</div>
+          <div className="battle-div">
+              <div className="flex-container" opp>{opponentMap}</div>
+             
+              <div className="player inventory-flex-container">{playerMap}</div>
+        </div>
       </div>
     );
     setBattle(playerDivs);

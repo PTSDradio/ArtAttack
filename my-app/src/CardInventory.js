@@ -17,7 +17,9 @@ function CardInventory() {
     </div>
   ));
 
-  return <div className="inventory-flex-container">{userCardInventory}</div>;
+  return <div className="inventory-flex-container">
+    {userCardInventory}
+    </div>;
 }
 
 export default CardInventory;
