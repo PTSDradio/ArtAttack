@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import BuySellCards from "./BuySellCards";
+
 
 function Wallet() {
   let startMoney = 100;
@@ -22,7 +22,7 @@ function Wallet() {
       </form>
 
       <h3>Total Funds: {moneyState}</h3>
-      <BuySellCards moneyState={moneyState} />
+      
     </div>
   );
 }

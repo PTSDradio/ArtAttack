@@ -1,40 +1,46 @@
 import React, { useState, useEffect } from "react";
-import CardDisplay from "./CardDisplay";
-import LearnMoreDisplay from "./LearnMoreDisplay";
 
-function LearnMore(){
-    const [userCards, setUserCards] = useState([])
-    
-    useEffect(() => {
-      fetch('http://localhost:3000/players_cards')
-      .then((r) => r.json())
-      .then(setUserCards)}, []) 
+function LearnMore({ learnArray, setLearnArray }) {
+  // const [userCards, setUserCards] = useState([]);
+  const [infoView, setInfoView] = useState(true);
 
-      const onClick = (card) => {
-              console.log(card)
-            }
-      console.log(userCards)
-
-    const learnMoreCards = (
-        userCards.map((card) => (
-            <div>
-                <div className="display-container">
-                    <CardDisplay card={card} onClick={onClick}/> 
-                </div>
-                    <div className="flex-container">
-                        <LearnMoreDisplay card={card}/>
-                </div>
-             </div>
-            )
-        ))
-
-
+  const onClick = () => {
+    setInfoView(!infoView);
+  };
+  const cardMap = learnArray.map((card) => {
     return (
-        <div className="inventory-flex-container">
-            {learnMoreCards}
+      <div key={card.id} className="flex-container learn-more">
+        <div className="card-container" onClick={onClick}>
+          <h2>{card.title}</h2>
+          {infoView ? (
+            <h3>Tier: {card.tier} </h3>
+          ) : (
+            <h3>Price: {card.price} </h3>
+          )}
+          <div className="card-image-container">
+            <img src={card.primaryImage} alt={card.title}></img>
+          </div>
+          {infoView ? (
+            <p>Artist: {card.artistDisplayName}</p>
+          ) : (
+            <p>Period: {card.period}</p>
+          )}
+          {infoView ? (
+            <p>Artist Bio: {card.artistDisplayBio} </p>
+          ) : (
+            <p>Culture: {card.culture} </p>
+          )}
+          {infoView ? (
+            <p>Date: {card.objectEndDate}</p>
+          ) : (
+            <p>Medium: {card.medium} </p>
+          )}
         </div>
-    )
+      </div>
+    );
+  });
+
+  return <div className="flex-container">{cardMap}</div>;
 }
 
-export default LearnMore; 
-
+export default LearnMore;

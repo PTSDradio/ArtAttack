@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import CardDisplay from "./CardDisplay";
 
-function CardInventory() {
+function CardInventory({ onClick }) {
   const [userCards, setUserCards] = useState([]);
 
   useEffect(() => {
@@ -10,14 +10,15 @@ function CardInventory() {
       .then(setUserCards);
   }, []);
 
-
   const userCardInventory = userCards.map((card) => (
     <div key={card.id} className="display-container">
-      <CardDisplay card={card} />
+      <CardDisplay card={card} onClick={onClick} />
     </div>
   ));
 
-  return <div className="inventory-flex-container">{userCardInventory}</div>;
+  return (
+    <div className="flex-container">{userCardInventory}</div>
+  );
 }
 
 export default CardInventory;

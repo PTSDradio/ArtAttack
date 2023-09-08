@@ -1,42 +1,28 @@
-import React, { useState, useEffect, createContext } from "react";
-import { Route, Routes, BrowserRouter } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { Route, Routes } from "react-router-dom";
 import NavBar from "./Navbar";
-import GenerateNewCard from "./GenerateNewCard";
+import PullCards from "./PullCards";
 import CardInventory from "./CardInventory";
 import LearnMore from "./LearnMore";
-import Wallet from "./Wallet";
-import Gen from "./BuySellCards";
+import Home from "./Home";
 import Battle from "./Battle";
-import CardDisplay from "./CardDisplay";
-
-import RandomCards from "./RandomCards";
 
 function App() {
   const [data, setData] = useState([]);
 
   const [moneyState, setMoneyState] = useState(10000);
 
-  const UserContext = createContext();
+  const [learnArray, setLearnArray] = useState([]);
 
-  // const [data, setData] = useState([]);
-
-  // const fetchCardPack = () => {
-  //   fetch(`http://localhost:3000/cards`)
-  //     .then((res) => res.json())
-  //     .then((data) => {
-  //       setData(data)
-  //     }).then(() => {
-
-  //       const dataMap = array.map((array) => {
-  //         return <CardDisplay key={array.id} array={array} />;
-  //       });
-  //       setData(dataMap);
-
-  //     })
-  // };
+  const handleLearnMore = (card) => {
+    setLearnArray([card]);
+  };
 
   useEffect(() => {
     fetchCardPack();
+    fetch("http://localhost:3000/players_cards")
+      .then((res) => res.json())
+      .then(setLearnArray);
   }, []);
 
   const fetchCardPack = () => {
@@ -50,28 +36,44 @@ function App() {
   return (
     <div>
       {/* <UserContext.Provider value={data}> */}
-      <NavBar />
+      <NavBar money={moneyState} />
+
       <Routes>
+        <Route exact path="/" element={<Home onClick={handleLearnMore} />} />
         <Route
           exact
-          path="/"
+          path="/Battle"
           element={
             <Battle moneyState={moneyState} setMoneyState={setMoneyState} />
           }
         />
         <Route
           exact
-          path="/GenerateNewCard"
+          path="/PullCards"
           element={
-            <GenerateNewCard
+            <PullCards
               data={data}
               moneyState={moneyState}
               setMoneyState={setMoneyState}
             />
           }
         />
-        <Route exact path="/CardInventory" element={<CardInventory />} />
-        <Route exact path="/LearnMore" element={<LearnMore data={data} />} />
+        <Route
+          exact
+          path="/CardInventory"
+          element={<CardInventory onClick={handleLearnMore} />}
+        />
+        <Route
+          exact
+          path="/LearnMore"
+          element={
+            <LearnMore
+              data={data}
+              learnArray={learnArray}
+              setLearnArray={setLearnArray}
+            />
+          }
+        />
       </Routes>
       {/* </UserContext.Provider> */}
       <div>Money: {moneyState}</div>
